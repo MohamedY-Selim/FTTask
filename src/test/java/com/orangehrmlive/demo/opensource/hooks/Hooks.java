@@ -7,6 +7,7 @@ import com.orangehrmlive.demo.opensource.steps.LoginSteps;
 import com.orangehrmlive.demo.opensource.steps.UserManagementSteps;
 import io.cucumber.java.*;
 import io.qameta.allure.Allure;
+import io.qameta.allure.AllureLifecycle;
 import io.qameta.allure.Step;
 import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.OutputType;
@@ -33,15 +34,15 @@ public class Hooks {
     public static void setup() {
         driver = DriverFactory.initializeDriver();
     }
-
-    @AfterStep
-    @Step("Take screenshot after each step if failed")
-    public void afterStep(Scenario scenario) {
-        if (scenario.isFailed()) {
-            File destFile = new File("target/screenshots/failed_" + scenario.getName() + ".png");
-            takeScreenshot(destFile);
-        }
-    }
+//
+//    @AfterStep
+//    @Step("Take screenshot after each step if failed")
+//    public void afterStep(Scenario scenario) {
+//        if (scenario.isFailed()) {
+//            File destFile = new File("target/screenshots/failed_" + scenario.getName() + ".png");
+//            takeScreenshot(destFile);
+//        }
+//    }
 
     @After
     @Step("Log scenario result")
@@ -54,6 +55,8 @@ public class Hooks {
         } else {
             System.out.println(ANSI_RED_BACKGROUND + ANSI_BLACK + scenarioName + " Scenario Failed" + ANSI_RESET);
         }
+        File destFile = new File("target/screenshots/failed_" + scenario.getName() + ".png");
+        takeScreenshot(destFile);
 
         // Handle window management after scenario
         List<String> allWindows = new ArrayList<>(driver.getWindowHandles());
