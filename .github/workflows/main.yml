@@ -1,14 +1,12 @@
-name: Build and Deploy Allure Report
+name: Run Cucumber Test and Deploy Allure Report
 
 on:
   push:
-    branches:
-      - master
-  pull_request:
+    branches: [ "master", "main" ]
 
 jobs:
   test:
-    runs-on: ubuntu-latest
+    runs-on: macos-latest
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
@@ -16,25 +14,23 @@ jobs:
       - name: Set up Java
         uses: actions/setup-java@v4
         with:
-          java-version: '11'
-          distribution: 'temurin'
+          java-version: "22"
+          cache: maven
+          distribution: "temurin"
 
-      - name: Run tests with Maven
+      - name: Set up Chrome
+        uses: browser-actions/setup-chrome@latest
+
+      - name: Run Tests with Maven
         run: mvn clean test
 
       - name: Generate Allure Report
         run: mvn allure:report
 
-      - name: Deploy to GitHub Pages
-        if: success()
-        run: |
-          git config --global user.name 'github-actions[bot]'
-          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
-          mvn -N io.takari:maven:wrapper
-          git checkout -b gh-pages
-          mkdir -p allure-report
-          cp -r target/site/allure-maven-plugin/* allure-report/
-          echo 'allure-report/' > .gitignore
-          git add allure-report
-          git commit -m "Deploy Allure Report to GitHub Pages"
-          git push --force --quiet "https://${{ github.actor }}:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git" gh-pages
+      - name: Deploy Allure Report to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./target/site/allure-maven-plugin
+          user_name: MohamedY-Selim
+          user_email: mohamed_yehia@acu.edu.eg
