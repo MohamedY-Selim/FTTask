@@ -59,6 +59,7 @@ This project includes a GitHub Actions workflow that:
 
 Runs the tests on every push to the main or master branches.
 Generates an Allure report.
+Deploys the Allure report to github pages at https://mohamedy-selim.github.io/FTTask
 
 ### Limitations
 The current implementation only covers the login, user management, and candidates features. Additional test cases might be needed for full coverage.
