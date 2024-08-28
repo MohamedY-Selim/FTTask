@@ -16,3 +16,10 @@ jobs:
           distribution: "temurin"
       - uses: browser-actions/setup-chrome@latest
       - run: mvn clean test
+      - name: Generate Allure Report
+        run: mvn allure:report
+      - name: Upload Allure Report as Artifact
+        uses: actions/upload-artifact@v3
+        with:
+          name: allure-report
+          path: allure-results/
