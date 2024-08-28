@@ -1,29 +1,44 @@
 {
-  "uid" : "29e7ff61385c9bed",
-  "name" : "Admin should be able to add a new candidate using api, and number of candidates records should be increased by one",
-  "fullName" : "src/test/resources/features/recruitment.feature:9",
-  "historyId" : "3d6c002b5468da53792d01fdc8b36e52",
+  "uid" : "281af7b87fc33ab8",
+  "name" : "Admin should be able to delete the new candidate using api, and number of candidates records should be decreased by one",
+  "fullName" : "src/test/resources/features/recruitment.feature:15",
+  "historyId" : "dcbbd5ae583e659d2c28302803e5637d",
   "time" : {
-    "start" : 1724863808531,
-    "stop" : 1724863816257,
-    "duration" : 7726
+    "start" : 1724876511977,
+    "stop" : 1724876515767,
+    "duration" : 3790
   },
   "status" : "passed",
   "flaky" : false,
   "beforeStages" : [ {
+    "name" : "com.orangehrmlive.demo.opensource.steps.RecruitmentSteps.addUser()",
+    "time" : {
+      "start" : 1724876512010,
+      "stop" : 1724876512011,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
     "name" : "com.orangehrmlive.demo.opensource.hooks.Hooks.login()",
     "time" : {
-      "start" : 1724863808531,
-      "stop" : 1724863808550,
-      "duration" : 19
+      "start" : 1724876511977,
+      "stop" : 1724876512009,
+      "duration" : 32
     },
     "status" : "passed",
     "steps" : [ {
       "name" : "Verify that User Dropdown is Displayed",
       "time" : {
-        "start" : 1724863808532,
-        "stop" : 1724863808549,
-        "duration" : 17
+        "start" : 1724876511979,
+        "stop" : 1724876512009,
+        "duration" : 30
       },
       "status" : "passed",
       "steps" : [ ],
@@ -46,17 +61,17 @@
     "steps" : [ {
       "name" : "Given Admin is at the Recruitment page",
       "time" : {
-        "start" : 1724863808550,
-        "stop" : 1724863811071,
-        "duration" : 2521
+        "start" : 1724876512011,
+        "stop" : 1724876513300,
+        "duration" : 1289
       },
       "status" : "passed",
       "steps" : [ {
         "name" : "Load the User Management Page",
         "time" : {
-          "start" : 1724863808551,
-          "stop" : 1724863809633,
-          "duration" : 1082
+          "start" : 1724876512011,
+          "stop" : 1724876512353,
+          "duration" : 342
         },
         "status" : "passed",
         "steps" : [ ],
@@ -69,9 +84,9 @@
       }, {
         "name" : "Get Current candidates count",
         "time" : {
-          "start" : 1724863809634,
-          "stop" : 1724863811071,
-          "duration" : 1437
+          "start" : 1724876512353,
+          "stop" : 1724876513300,
+          "duration" : 947
         },
         "status" : "passed",
         "steps" : [ ],
@@ -89,11 +104,11 @@
       "stepsCount" : 2,
       "hasContent" : true
     }, {
-      "name" : "When Admin add a new candidate using api",
+      "name" : "When Admin delete the new candidate using api",
       "time" : {
-        "start" : 1724863811071,
-        "stop" : 1724863814818,
-        "duration" : 3747
+        "start" : 1724876513300,
+        "stop" : 1724876514114,
+        "duration" : 814
       },
       "status" : "passed",
       "steps" : [ ],
@@ -104,19 +119,19 @@
       "stepsCount" : 0,
       "hasContent" : false
     }, {
-      "name" : "Then Number of candidates records should be increased by one",
+      "name" : "Then Number of candidates records should be decreased by one",
       "time" : {
-        "start" : 1724863814819,
-        "stop" : 1724863816145,
-        "duration" : 1326
+        "start" : 1724876514114,
+        "stop" : 1724876515675,
+        "duration" : 1561
       },
       "status" : "passed",
       "steps" : [ {
         "name" : "Load the User Management Page",
         "time" : {
-          "start" : 1724863814819,
-          "stop" : 1724863815176,
-          "duration" : 357
+          "start" : 1724876514114,
+          "stop" : 1724876514458,
+          "duration" : 344
         },
         "status" : "passed",
         "steps" : [ ],
@@ -129,9 +144,9 @@
       }, {
         "name" : "Get Current candidates count",
         "time" : {
-          "start" : 1724863815176,
-          "stop" : 1724863816145,
-          "duration" : 969
+          "start" : 1724876514458,
+          "stop" : 1724876515675,
+          "duration" : 1217
         },
         "status" : "passed",
         "steps" : [ ],
@@ -159,30 +174,30 @@
   "afterStages" : [ {
     "name" : "com.orangehrmlive.demo.opensource.hooks.Hooks.afterScenario(io.cucumber.java.Scenario)",
     "time" : {
-      "start" : 1724863816145,
-      "stop" : 1724863816256,
-      "duration" : 111
+      "start" : 1724876515675,
+      "stop" : 1724876515767,
+      "duration" : 92
     },
     "status" : "passed",
     "steps" : [ {
       "name" : "Log scenario result",
       "time" : {
-        "start" : 1724863816145,
-        "stop" : 1724863816256,
-        "duration" : 111
+        "start" : 1724876515675,
+        "stop" : 1724876515767,
+        "duration" : 92
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ {
-        "uid" : "5a84b4277ea123ec",
+        "uid" : "722c09b16bb92709",
         "name" : "screenshot",
-        "source" : "5a84b4277ea123ec.png",
+        "source" : "722c09b16bb92709.png",
         "type" : "image/png",
-        "size" : 127039
+        "size" : 122736
       } ],
       "parameters" : [ {
         "name" : "scenario",
-        "value" : "io.cucumber.java.Scenario@72b16e26"
+        "value" : "io.cucumber.java.Scenario@2330af4f"
       } ],
       "attachmentsCount" : 1,
       "shouldDisplayMessage" : false,
@@ -200,23 +215,26 @@
     "name" : "tag",
     "value" : "requiresLogin"
   }, {
+    "name" : "tag",
+    "value" : "requiresCandidateAdd"
+  }, {
     "name" : "host",
-    "value" : "Mac-1724863254285.local"
+    "value" : "Mac-1724875699164.local"
   }, {
     "name" : "thread",
-    "value" : "2981@Mac-1724863254285.local.main(1)"
+    "value" : "2850@Mac-1724875699164.local.main(1)"
   }, {
     "name" : "feature",
     "value" : "Recruitment Feature"
   }, {
     "name" : "story",
-    "value" : "Admin should be able to add a new candidate using api, and number of candidates records should be increased by one"
+    "value" : "Admin should be able to delete the new candidate using api, and number of candidates records should be decreased by one"
   }, {
     "name" : "suite",
     "value" : "Recruitment Feature"
   }, {
     "name" : "testClass",
-    "value" : "Admin should be able to add a new candidate using api, and number of candidates records should be increased by one"
+    "value" : "Admin should be able to delete the new candidate using api, and number of candidates records should be decreased by one"
   }, {
     "name" : "framework",
     "value" : "cucumber4jvm"
@@ -241,8 +259,8 @@
     "severity" : "normal",
     "retries" : [ ],
     "categories" : [ ],
-    "tags" : [ "requiresLogin" ]
+    "tags" : [ "requiresLogin", "requiresCandidateAdd" ]
   },
-  "source" : "29e7ff61385c9bed.json",
+  "source" : "281af7b87fc33ab8.json",
   "parameterValues" : [ ]
 }

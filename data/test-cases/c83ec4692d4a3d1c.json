@@ -1,62 +1,32 @@
 {
-  "uid" : "53be85e3cddf2ac4",
-  "name" : "Admin should be able to navigate to User Management Page",
-  "fullName" : "src/test/resources/features/usermanagement.feature:4",
-  "historyId" : "85a8163156e926ea32522c0c9b241379",
+  "uid" : "c83ec4692d4a3d1c",
+  "name" : "User should be able to login",
+  "fullName" : "src/test/resources/features/login.feature:2",
+  "historyId" : "a30785d677cff3b305a99d403beb1b4",
   "time" : {
-    "start" : 1724863825318,
-    "stop" : 1724863828054,
-    "duration" : 2736
+    "start" : 1724876488034,
+    "stop" : 1724876493403,
+    "duration" : 5369
   },
   "status" : "passed",
   "flaky" : false,
-  "beforeStages" : [ {
-    "name" : "com.orangehrmlive.demo.opensource.hooks.Hooks.login()",
-    "time" : {
-      "start" : 1724863825318,
-      "stop" : 1724863825334,
-      "duration" : 16
-    },
-    "status" : "passed",
-    "steps" : [ {
-      "name" : "Verify that User Dropdown is Displayed",
-      "time" : {
-        "start" : 1724863825318,
-        "stop" : 1724863825334,
-        "duration" : 16
-      },
-      "status" : "passed",
-      "steps" : [ ],
-      "attachments" : [ ],
-      "parameters" : [ ],
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
-      "stepsCount" : 0,
-      "hasContent" : false
-    } ],
-    "attachments" : [ ],
-    "parameters" : [ ],
-    "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false,
-    "stepsCount" : 1,
-    "hasContent" : true
-  } ],
+  "beforeStages" : [ ],
   "testStage" : {
     "status" : "passed",
     "steps" : [ {
-      "name" : "Given Admin is at the home page",
+      "name" : "Given User is at the login page",
       "time" : {
-        "start" : 1724863825335,
-        "stop" : 1724863826066,
-        "duration" : 731
+        "start" : 1724876488038,
+        "stop" : 1724876490239,
+        "duration" : 2201
       },
       "status" : "passed",
       "steps" : [ {
         "name" : "Load the Login Page",
         "time" : {
-          "start" : 1724863825335,
-          "stop" : 1724863825782,
-          "duration" : 447
+          "start" : 1724876488081,
+          "stop" : 1724876489774,
+          "duration" : 1693
         },
         "status" : "passed",
         "steps" : [ ],
@@ -67,11 +37,11 @@
         "stepsCount" : 0,
         "hasContent" : false
       }, {
-        "name" : "Verify that Home Page Header is Displayed",
+        "name" : "Verify that Login Page Header is Displayed",
         "time" : {
-          "start" : 1724863825782,
-          "stop" : 1724863826066,
-          "duration" : 284
+          "start" : 1724876489775,
+          "stop" : 1724876490228,
+          "duration" : 453
         },
         "status" : "passed",
         "steps" : [ ],
@@ -89,19 +59,34 @@
       "stepsCount" : 2,
       "hasContent" : true
     }, {
-      "name" : "When Admin click on Admin tab on the left side menu",
+      "name" : "When User fill the credentials, and login",
       "time" : {
-        "start" : 1724863826066,
-        "stop" : 1724863827465,
-        "duration" : 1399
+        "start" : 1724876490242,
+        "stop" : 1724876491666,
+        "duration" : 1424
       },
       "status" : "passed",
       "steps" : [ {
-        "name" : "Click on Admin tab on the left side menu",
+        "name" : "Fill Login form",
         "time" : {
-          "start" : 1724863826067,
-          "stop" : 1724863827464,
-          "duration" : 1397
+          "start" : 1724876490249,
+          "stop" : 1724876490591,
+          "duration" : 342
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "Click on Login Button",
+        "time" : {
+          "start" : 1724876490591,
+          "stop" : 1724876491666,
+          "duration" : 1075
         },
         "status" : "passed",
         "steps" : [ ],
@@ -116,22 +101,22 @@
       "parameters" : [ ],
       "attachmentsCount" : 0,
       "shouldDisplayMessage" : false,
-      "stepsCount" : 1,
+      "stepsCount" : 2,
       "hasContent" : true
     }, {
-      "name" : "Then User Management Page should be displayed",
+      "name" : "Then Home Page should be displayed",
       "time" : {
-        "start" : 1724863827465,
-        "stop" : 1724863827915,
-        "duration" : 450
+        "start" : 1724876491666,
+        "stop" : 1724876492059,
+        "duration" : 393
       },
       "status" : "passed",
       "steps" : [ {
-        "name" : "Verify that User Management Page Header is Displayed",
+        "name" : "Verify that Home Page Header is Displayed",
         "time" : {
-          "start" : 1724863827465,
-          "stop" : 1724863827910,
-          "duration" : 445
+          "start" : 1724876491667,
+          "stop" : 1724876492037,
+          "duration" : 370
         },
         "status" : "passed",
         "steps" : [ ],
@@ -153,36 +138,36 @@
     "parameters" : [ ],
     "attachmentsCount" : 0,
     "shouldDisplayMessage" : false,
-    "stepsCount" : 7,
+    "stepsCount" : 8,
     "hasContent" : true
   },
   "afterStages" : [ {
     "name" : "com.orangehrmlive.demo.opensource.hooks.Hooks.afterScenario(io.cucumber.java.Scenario)",
     "time" : {
-      "start" : 1724863827915,
-      "stop" : 1724863828053,
-      "duration" : 138
+      "start" : 1724876492061,
+      "stop" : 1724876493317,
+      "duration" : 1256
     },
     "status" : "passed",
     "steps" : [ {
       "name" : "Log scenario result",
       "time" : {
-        "start" : 1724863827915,
-        "stop" : 1724863828053,
-        "duration" : 138
+        "start" : 1724876492067,
+        "stop" : 1724876493316,
+        "duration" : 1249
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ {
-        "uid" : "740d27375ae7698a",
+        "uid" : "837c3d636a78cb92",
         "name" : "screenshot",
-        "source" : "740d27375ae7698a.png",
+        "source" : "837c3d636a78cb92.png",
         "type" : "image/png",
-        "size" : 97871
+        "size" : 148721
       } ],
       "parameters" : [ {
         "name" : "scenario",
-        "value" : "io.cucumber.java.Scenario@23cf86c0"
+        "value" : "io.cucumber.java.Scenario@6487f7f8"
       } ],
       "attachmentsCount" : 1,
       "shouldDisplayMessage" : false,
@@ -197,26 +182,23 @@
     "hasContent" : true
   } ],
   "labels" : [ {
-    "name" : "tag",
-    "value" : "requiresLogin"
-  }, {
     "name" : "host",
-    "value" : "Mac-1724863254285.local"
+    "value" : "Mac-1724875699164.local"
   }, {
     "name" : "thread",
-    "value" : "2981@Mac-1724863254285.local.main(1)"
+    "value" : "2850@Mac-1724875699164.local.main(1)"
   }, {
     "name" : "feature",
-    "value" : "User Management Feature"
+    "value" : "Login Feature"
   }, {
     "name" : "story",
-    "value" : "Admin should be able to navigate to User Management Page"
+    "value" : "User should be able to login"
   }, {
     "name" : "suite",
-    "value" : "User Management Feature"
+    "value" : "Login Feature"
   }, {
     "name" : "testClass",
-    "value" : "Admin should be able to navigate to User Management Page"
+    "value" : "User should be able to login"
   }, {
     "name" : "framework",
     "value" : "cucumber4jvm"
@@ -225,10 +207,10 @@
     "value" : "java"
   }, {
     "name" : "gherkin_uri",
-    "value" : "file:///Users/runner/work/FTTask/FTTask/src/test/resources/features/usermanagement.feature"
+    "value" : "file:///Users/runner/work/FTTask/FTTask/src/test/resources/features/login.feature"
   }, {
     "name" : "package",
-    "value" : "src.test.resources.features.usermanagement_feature.User Management Feature"
+    "value" : "src.test.resources.features.login_feature.Login Feature"
   }, {
     "name" : "resultFormat",
     "value" : "allure2"
@@ -241,8 +223,8 @@
     "severity" : "normal",
     "retries" : [ ],
     "categories" : [ ],
-    "tags" : [ "requiresLogin" ]
+    "tags" : [ ]
   },
-  "source" : "53be85e3cddf2ac4.json",
+  "source" : "c83ec4692d4a3d1c.json",
   "parameterValues" : [ ]
 }
