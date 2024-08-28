@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-08-28T19:15:47 EEST" name="Surefire suite" finished-at="2024-08-28T19:16:27 EEST" duration-ms="39848">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.orangehrmlive.demo.opensource.runners.RunnerTest@278bb07e]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2024-08-28T19:15:47 EEST" name="Surefire test" finished-at="2024-08-28T19:16:27 EEST" duration-ms="39848">
+      <class name="com.orangehrmlive.demo.opensource.runners.RunnerTest">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:com.orangehrmlive.demo.opensource.runners.RunnerTest@278bb07e]" started-at="2024-08-28T19:15:47 EEST" name="setUpClass" finished-at="2024-08-28T19:15:51 EEST" duration-ms="4247" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@22059c63]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.orangehrmlive.demo.opensource.runners.RunnerTest@278bb07e]" started-at="2024-08-28T19:15:51 EEST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-08-28T19:15:56 EEST" duration-ms="5040" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["User should be able to login"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Login Feature"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.orangehrmlive.demo.opensource.runners.RunnerTest@278bb07e]" started-at="2024-08-28T19:15:56 EEST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-08-28T19:15:59 EEST" duration-ms="2375" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Admin should be able to navigate to Recruitment Page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Recruitment Feature"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.orangehrmlive.demo.opensource.runners.RunnerTest@278bb07e]" started-at="2024-08-28T19:15:59 EEST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-08-28T19:16:07 EEST" duration-ms="8077" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Admin should be able to add a new candidate using api, and number of candidates records should be increased by one"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Recruitment Feature"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.orangehrmlive.demo.opensource.runners.RunnerTest@278bb07e]" started-at="2024-08-28T19:16:07 EEST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-08-28T19:16:10 EEST" duration-ms="3612" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Admin should be able to delete the new candidate using api, and number of candidates records should be decreased by one"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Recruitment Feature"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.orangehrmlive.demo.opensource.runners.RunnerTest@278bb07e]" started-at="2024-08-28T19:16:10 EEST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-08-28T19:16:13 EEST" duration-ms="2622" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Admin should be able to navigate to User Management Page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["User Management Feature"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.orangehrmlive.demo.opensource.runners.RunnerTest@278bb07e]" started-at="2024-08-28T19:16:13 EEST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-08-28T19:16:22 EEST" duration-ms="8696" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Admin should be able to add a new user, and number of users records should be increased by one"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["User Management Feature"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.orangehrmlive.demo.opensource.runners.RunnerTest@278bb07e]" started-at="2024-08-28T19:16:22 EEST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-08-28T19:16:27 EEST" duration-ms="4783" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Admin should be able to delete a user, and number of users records should be decreased by one"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["User Management Feature"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.orangehrmlive.demo.opensource.runners.RunnerTest@278bb07e]" started-at="2024-08-28T19:16:27 EEST" name="tearDownClass" finished-at="2024-08-28T19:16:27 EEST" duration-ms="286" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.orangehrmlive.demo.opensource.runners.RunnerTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>

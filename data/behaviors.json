@@ -1,0 +1,129 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "Login Feature",
+    "children" : [ {
+      "name" : "User should be able to login",
+      "children" : [ {
+        "name" : "User should be able to login",
+        "uid" : "fdd8c1e43c26ec76",
+        "parentUid" : "3cf4d60c7878a377e355dc68a070dc53",
+        "status" : "passed",
+        "time" : {
+          "start" : 1724861752070,
+          "stop" : 1724861756838,
+          "duration" : 4768
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "3cf4d60c7878a377e355dc68a070dc53"
+    } ],
+    "uid" : "07ccdc9b95bf3f4817e5955bf1854cdd"
+  }, {
+    "name" : "Recruitment Feature",
+    "children" : [ {
+      "name" : "Admin should be able to navigate to Recruitment Page",
+      "children" : [ {
+        "name" : "Admin should be able to navigate to Recruitment Page",
+        "uid" : "80efe7205b97eb74",
+        "parentUid" : "028e20a94ead48340ecaa4f9ca730858",
+        "status" : "passed",
+        "time" : {
+          "start" : 1724861756871,
+          "stop" : 1724861759230,
+          "duration" : 2359
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "028e20a94ead48340ecaa4f9ca730858"
+    }, {
+      "name" : "Admin should be able to add a new candidate using api, and number of candidates records should be increased by one",
+      "children" : [ {
+        "name" : "Admin should be able to add a new candidate using api, and number of candidates records should be increased by one",
+        "uid" : "e9f91b2f6e21047a",
+        "parentUid" : "d05515beb2624017bb064f595f94df37",
+        "status" : "passed",
+        "time" : {
+          "start" : 1724861759238,
+          "stop" : 1724861767307,
+          "duration" : 8069
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "d05515beb2624017bb064f595f94df37"
+    }, {
+      "name" : "Admin should be able to delete the new candidate using api, and number of candidates records should be decreased by one",
+      "children" : [ {
+        "name" : "Admin should be able to delete the new candidate using api, and number of candidates records should be decreased by one",
+        "uid" : "9ffd730c7b9f653f",
+        "parentUid" : "ec9c79016482b8e522127ee24a3583ea",
+        "status" : "passed",
+        "time" : {
+          "start" : 1724861767317,
+          "stop" : 1724861770921,
+          "duration" : 3604
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "ec9c79016482b8e522127ee24a3583ea"
+    } ],
+    "uid" : "f8ed4cb6c86b6356bf4110c756100062"
+  }, {
+    "name" : "User Management Feature",
+    "children" : [ {
+      "name" : "Admin should be able to navigate to User Management Page",
+      "children" : [ {
+        "name" : "Admin should be able to navigate to User Management Page",
+        "uid" : "183380f302f8c365",
+        "parentUid" : "f7b092447714e94cdf1d3c0c90970f84",
+        "status" : "passed",
+        "time" : {
+          "start" : 1724861770926,
+          "stop" : 1724861773542,
+          "duration" : 2616
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "f7b092447714e94cdf1d3c0c90970f84"
+    }, {
+      "name" : "Admin should be able to add a new user, and number of users records should be increased by one",
+      "children" : [ {
+        "name" : "Admin should be able to add a new user, and number of users records should be increased by one",
+        "uid" : "3cc03d91a0ef7bdb",
+        "parentUid" : "7154ede9e2762e2148125491becb9db6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1724861773555,
+          "stop" : 1724861782242,
+          "duration" : 8687
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "7154ede9e2762e2148125491becb9db6"
+    }, {
+      "name" : "Admin should be able to delete a user, and number of users records should be decreased by one",
+      "children" : [ {
+        "name" : "Admin should be able to delete a user, and number of users records should be decreased by one",
+        "uid" : "90bde0a0f470002c",
+        "parentUid" : "0e513c92c3b38b1ce7179781140ad5a0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1724861782247,
+          "stop" : 1724861787025,
+          "duration" : 4778
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "0e513c92c3b38b1ce7179781140ad5a0"
+    } ],
+    "uid" : "342b3ad350f6fed5a04993204deb9b10"
+  } ]
+}

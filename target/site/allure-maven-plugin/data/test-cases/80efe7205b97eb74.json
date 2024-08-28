@@ -1,0 +1,248 @@
+{
+  "uid" : "80efe7205b97eb74",
+  "name" : "Admin should be able to navigate to Recruitment Page",
+  "fullName" : "src/test/resources/features/recruitment.feature:4",
+  "historyId" : "519af8428ab84e1d4b7a403542856b7",
+  "time" : {
+    "start" : 1724861756871,
+    "stop" : 1724861759230,
+    "duration" : 2359
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "com.orangehrmlive.demo.opensource.hooks.Hooks.login()",
+    "time" : {
+      "start" : 1724861756872,
+      "stop" : 1724861756900,
+      "duration" : 28
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Verify that User Dropdown is Displayed",
+      "time" : {
+        "start" : 1724861756873,
+        "stop" : 1724861756900,
+        "duration" : 27
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "hasContent" : true,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Given Admin is at the home page",
+      "time" : {
+        "start" : 1724861756901,
+        "stop" : 1724861757527,
+        "duration" : 626
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Load the Login Page",
+        "time" : {
+          "start" : 1724861756903,
+          "stop" : 1724861757231,
+          "duration" : 328
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "Verify that Home Page Header is Displayed",
+        "time" : {
+          "start" : 1724861757231,
+          "stop" : 1724861757527,
+          "duration" : 296
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 2,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "When Admin click on Recruitment tab on the left side menu",
+      "time" : {
+        "start" : 1724861757527,
+        "stop" : 1724861758678,
+        "duration" : 1151
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Click on Recruitment tab on the left side menu",
+        "time" : {
+          "start" : 1724861757531,
+          "stop" : 1724861758678,
+          "duration" : 1147
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Then Recruitment Page should be displayed",
+      "time" : {
+        "start" : 1724861758678,
+        "stop" : 1724861759038,
+        "duration" : 360
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Verify that Recruitment Header is Displayed",
+        "time" : {
+          "start" : 1724861758679,
+          "stop" : 1724861759018,
+          "duration" : 339
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 7,
+    "hasContent" : true,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ {
+    "name" : "com.orangehrmlive.demo.opensource.hooks.Hooks.afterScenario(io.cucumber.java.Scenario)",
+    "time" : {
+      "start" : 1724861759038,
+      "stop" : 1724861759229,
+      "duration" : 191
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Log scenario result",
+      "time" : {
+        "start" : 1724861759038,
+        "stop" : 1724861759229,
+        "duration" : 191
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "f181bdde8cb48804",
+        "name" : "screenshot",
+        "source" : "f181bdde8cb48804.png",
+        "type" : "image/png",
+        "size" : 129044
+      } ],
+      "parameters" : [ {
+        "name" : "scenario",
+        "value" : "io.cucumber.java.Scenario@2ebf524"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "requiresLogin"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-9E9MS69"
+  }, {
+    "name" : "thread",
+    "value" : "21716@DESKTOP-9E9MS69.main(1)"
+  }, {
+    "name" : "feature",
+    "value" : "Recruitment Feature"
+  }, {
+    "name" : "story",
+    "value" : "Admin should be able to navigate to Recruitment Page"
+  }, {
+    "name" : "suite",
+    "value" : "Recruitment Feature"
+  }, {
+    "name" : "testClass",
+    "value" : "Admin should be able to navigate to Recruitment Page"
+  }, {
+    "name" : "framework",
+    "value" : "cucumber4jvm"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "gherkin_uri",
+    "value" : "file:///E:/FTTASK/src/test/resources/features/recruitment.feature"
+  }, {
+    "name" : "package",
+    "value" : "src.test.resources.features.recruitment_feature.Recruitment Feature"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "requiresLogin" ]
+  },
+  "source" : "80efe7205b97eb74.json",
+  "parameterValues" : [ ]
+}
