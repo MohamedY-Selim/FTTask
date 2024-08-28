@@ -15,17 +15,11 @@ jobs:
           cache: maven
           distribution: "temurin"
       - uses: browser-actions/setup-chrome@latest
-      - name: Print working directory
-        run: pwd
-      - name: List files in the workspace
-        run: ls -la
       - run: mvn clean test
-      - name: Check Allure Results
-        run: ls -la **/target/allure-results
       - name: Generate Allure Report
         run: mvn allure:report
       - name: Upload Allure Report as Artifact
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
-          name: allure-report
-          path: '**/target/site/allure-maven-plugin/'
+          name: allure-results
+          path: target/site/allure-maven-plugin/
