@@ -67,7 +67,6 @@ public class CandidateApi {
                 .then()
                 .extract().response();
 
-        // Check the response status code
         if (response.statusCode() != 200) {
             throw new RuntimeException("Something went wrong in deleting the candidate");
         }
