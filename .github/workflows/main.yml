@@ -25,9 +25,11 @@ jobs:
         run: mvn clean test
 
       - name: Generate Allure Report
+        if: always()
         run: mvn allure:report
 
       - name: Deploy Allure Report to GitHub Pages
+        if: always()
         uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
