@@ -1,28 +1,43 @@
 {
-  "uid" : "24e9f89463ad6910",
-  "name" : "Admin should be able to add a new user, and number of users records should be increased by one",
-  "fullName" : "src/test/resources/features/usermanagement.feature:9",
-  "historyId" : "71703b54b33a7a74fc55bf8011334e46",
+  "uid" : "bb0f887d27f3744e",
+  "name" : "Admin should be able to delete a user, and number of users records should be decreased by one",
+  "fullName" : "src/test/resources/features/usermanagement.feature:16",
+  "historyId" : "487b51920fd148827a96ea6a801d75d8",
   "time" : {
-    "start" : 1724929608577,
-    "stop" : 1724929618142,
-    "duration" : 9565
+    "start" : 1724929835843,
+    "stop" : 1724929840940,
+    "duration" : 5097
   },
   "status" : "passed",
   "flaky" : false,
   "beforeStages" : [ {
+    "name" : "com.orangehrmlive.demo.opensource.steps.UserManagementSteps.addUser()",
+    "time" : {
+      "start" : 1724929835859,
+      "stop" : 1724929835860,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
     "name" : "com.orangehrmlive.demo.opensource.hooks.Hooks.login()",
     "time" : {
-      "start" : 1724929608578,
-      "stop" : 1724929608592,
+      "start" : 1724929835843,
+      "stop" : 1724929835857,
       "duration" : 14
     },
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "hasContent" : false,
     "stepsCount" : 0,
+    "hasContent" : false,
     "attachmentsCount" : 0,
     "shouldDisplayMessage" : false
   } ],
@@ -31,213 +46,204 @@
     "steps" : [ {
       "name" : "Given Admin is at the user management page",
       "time" : {
-        "start" : 1724929608594,
-        "stop" : 1724929609917,
-        "duration" : 1323
+        "start" : 1724929835861,
+        "stop" : 1724929836958,
+        "duration" : 1097
       },
       "status" : "passed",
       "steps" : [ {
         "name" : "Load the User Management Page",
         "time" : {
-          "start" : 1724929608595,
-          "stop" : 1724929608974,
-          "duration" : 379
+          "start" : 1724929835862,
+          "stop" : 1724929836189,
+          "duration" : 327
         },
         "status" : "passed",
         "steps" : [ ],
         "attachments" : [ ],
         "parameters" : [ ],
-        "hasContent" : false,
         "stepsCount" : 0,
+        "hasContent" : false,
         "attachmentsCount" : 0,
         "shouldDisplayMessage" : false
       }, {
         "name" : "Get Current users count",
         "time" : {
-          "start" : 1724929608974,
-          "stop" : 1724929609917,
-          "duration" : 943
+          "start" : 1724929836189,
+          "stop" : 1724929836958,
+          "duration" : 769
         },
         "status" : "passed",
         "steps" : [ ],
         "attachments" : [ ],
         "parameters" : [ ],
-        "hasContent" : false,
         "stepsCount" : 0,
+        "hasContent" : false,
         "attachmentsCount" : 0,
         "shouldDisplayMessage" : false
       } ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "hasContent" : true,
       "stepsCount" : 2,
+      "hasContent" : true,
       "attachmentsCount" : 0,
       "shouldDisplayMessage" : false
     }, {
-      "name" : "When Admin Click on add button",
+      "name" : "When Admin fill user data, and search",
       "time" : {
-        "start" : 1724929609917,
-        "stop" : 1724929610687,
-        "duration" : 770
+        "start" : 1724929836958,
+        "stop" : 1724929838278,
+        "duration" : 1320
       },
       "status" : "passed",
       "steps" : [ {
-        "name" : "Click on Add Button",
+        "name" : "Fill User Data to search",
         "time" : {
-          "start" : 1724929609917,
-          "stop" : 1724929610339,
-          "duration" : 422
+          "start" : 1724929836958,
+          "stop" : 1724929838278,
+          "duration" : 1320
         },
         "status" : "passed",
         "steps" : [ ],
         "attachments" : [ ],
-        "parameters" : [ ],
-        "hasContent" : false,
+        "parameters" : [ {
+          "name" : "user",
+          "value" : "com.orangehrmlive.demo.opensource.objects.User@5db4e558"
+        } ],
         "stepsCount" : 0,
-        "attachmentsCount" : 0,
-        "shouldDisplayMessage" : false
-      }, {
-        "name" : "Verify that Add User Form Header is Displayed",
-        "time" : {
-          "start" : 1724929610340,
-          "stop" : 1724929610685,
-          "duration" : 345
-        },
-        "status" : "passed",
-        "steps" : [ ],
-        "attachments" : [ ],
-        "parameters" : [ ],
-        "hasContent" : false,
-        "stepsCount" : 0,
+        "hasContent" : true,
         "attachmentsCount" : 0,
         "shouldDisplayMessage" : false
       } ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "hasContent" : true,
-      "stepsCount" : 2,
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false
-    }, {
-      "name" : "And Fill new user data, and save",
-      "time" : {
-        "start" : 1724929610687,
-        "stop" : 1724929612378,
-        "duration" : 1691
-      },
-      "status" : "passed",
-      "steps" : [ {
-        "name" : "Fill New User Data",
-        "time" : {
-          "start" : 1724929610688,
-          "stop" : 1724929612357,
-          "duration" : 1669
-        },
-        "status" : "passed",
-        "steps" : [ ],
-        "attachments" : [ ],
-        "parameters" : [ ],
-        "hasContent" : false,
-        "stepsCount" : 0,
-        "attachmentsCount" : 0,
-        "shouldDisplayMessage" : false
-      }, {
-        "name" : "Click on Save Button",
-        "time" : {
-          "start" : 1724929612357,
-          "stop" : 1724929612378,
-          "duration" : 21
-        },
-        "status" : "passed",
-        "steps" : [ ],
-        "attachments" : [ ],
-        "parameters" : [ ],
-        "hasContent" : false,
-        "stepsCount" : 0,
-        "attachmentsCount" : 0,
-        "shouldDisplayMessage" : false
-      } ],
-      "attachments" : [ ],
-      "parameters" : [ ],
-      "hasContent" : true,
-      "stepsCount" : 2,
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false
-    }, {
-      "name" : "Then Number of users records should be increased by one",
-      "time" : {
-        "start" : 1724929612378,
-        "stop" : 1724929618030,
-        "duration" : 5652
-      },
-      "status" : "passed",
-      "steps" : [ {
-        "name" : "Get Current users count",
-        "time" : {
-          "start" : 1724929612378,
-          "stop" : 1724929618030,
-          "duration" : 5652
-        },
-        "status" : "passed",
-        "steps" : [ ],
-        "attachments" : [ ],
-        "parameters" : [ ],
-        "hasContent" : false,
-        "stepsCount" : 0,
-        "attachmentsCount" : 0,
-        "shouldDisplayMessage" : false
-      } ],
-      "attachments" : [ ],
-      "parameters" : [ ],
-      "hasContent" : true,
       "stepsCount" : 1,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "And Click on Delete button, and confirm",
+      "time" : {
+        "start" : 1724929838278,
+        "stop" : 1724929839389,
+        "duration" : 1111
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Delete the new User",
+        "time" : {
+          "start" : 1724929838279,
+          "stop" : 1724929839389,
+          "duration" : 1110
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "user",
+          "value" : "com.orangehrmlive.demo.opensource.objects.User@5db4e558"
+        } ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Then Number of users records should be decreased by one",
+      "time" : {
+        "start" : 1724929839389,
+        "stop" : 1724929840821,
+        "duration" : 1432
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Load the User Management Page",
+        "time" : {
+          "start" : 1724929839390,
+          "stop" : 1724929839836,
+          "duration" : 446
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "Get Current users count",
+        "time" : {
+          "start" : 1724929839836,
+          "stop" : 1724929840820,
+          "duration" : 984
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 2,
+      "hasContent" : true,
       "attachmentsCount" : 0,
       "shouldDisplayMessage" : false
     } ],
     "attachments" : [ ],
     "parameters" : [ ],
+    "stepsCount" : 10,
     "hasContent" : true,
-    "stepsCount" : 11,
     "attachmentsCount" : 0,
     "shouldDisplayMessage" : false
   },
   "afterStages" : [ {
     "name" : "com.orangehrmlive.demo.opensource.hooks.Hooks.afterScenario(io.cucumber.java.Scenario)",
     "time" : {
-      "start" : 1724929618030,
-      "stop" : 1724929618142,
-      "duration" : 112
+      "start" : 1724929840821,
+      "stop" : 1724929840939,
+      "duration" : 118
     },
     "status" : "passed",
     "steps" : [ {
       "name" : "Log scenario result",
       "time" : {
-        "start" : 1724929618030,
-        "stop" : 1724929618142,
-        "duration" : 112
+        "start" : 1724929840821,
+        "stop" : 1724929840939,
+        "duration" : 118
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ {
-        "uid" : "935c7f6ee649db39",
+        "uid" : "feb3b176647a29f",
         "name" : "screenshot",
-        "source" : "935c7f6ee649db39.png",
+        "source" : "feb3b176647a29f.png",
         "type" : "image/png",
-        "size" : 128745
+        "size" : 128815
       } ],
       "parameters" : [ {
         "name" : "scenario",
-        "value" : "io.cucumber.java.Scenario@2300d6fd"
+        "value" : "io.cucumber.java.Scenario@14344b44"
       } ],
-      "hasContent" : true,
       "stepsCount" : 0,
+      "hasContent" : true,
       "attachmentsCount" : 1,
       "shouldDisplayMessage" : false
     } ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "hasContent" : true,
     "stepsCount" : 1,
+    "hasContent" : true,
     "attachmentsCount" : 1,
     "shouldDisplayMessage" : false
   } ],
@@ -245,23 +251,26 @@
     "name" : "tag",
     "value" : "requiresLogin"
   }, {
+    "name" : "tag",
+    "value" : "requiresUserAdd"
+  }, {
     "name" : "host",
-    "value" : "Mac-1724928395009.local"
+    "value" : "Mac-1724928761132.local"
   }, {
     "name" : "thread",
-    "value" : "3097@Mac-1724928395009.local.main(1)"
+    "value" : "3333@Mac-1724928761132.local.main(1)"
   }, {
     "name" : "feature",
     "value" : "User Management Feature"
   }, {
     "name" : "story",
-    "value" : "Admin should be able to add a new user, and number of users records should be increased by one"
+    "value" : "Admin should be able to delete a user, and number of users records should be decreased by one"
   }, {
     "name" : "suite",
     "value" : "User Management Feature"
   }, {
     "name" : "testClass",
-    "value" : "Admin should be able to add a new user, and number of users records should be increased by one"
+    "value" : "Admin should be able to delete a user, and number of users records should be decreased by one"
   }, {
     "name" : "framework",
     "value" : "cucumber4jvm"
@@ -286,8 +295,8 @@
     "severity" : "normal",
     "retries" : [ ],
     "categories" : [ ],
-    "tags" : [ "requiresLogin" ]
+    "tags" : [ "requiresUserAdd", "requiresLogin" ]
   },
-  "source" : "24e9f89463ad6910.json",
+  "source" : "bb0f887d27f3744e.json",
   "parameterValues" : [ ]
 }
