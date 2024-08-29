@@ -102,12 +102,12 @@ public class Hooks {
             loginSteps.userIsAtTheLoginPage();
             loginSteps.userFillTheCredentialsAndLogin();
             loginSteps.homePageShouldBeDisplayed();
+            System.out.println(driver.manage().getCookieNamed("orangehrm"));
         }
     }
 
     private boolean isUserLoggedIn() {
-        HomePage homePage = new HomePage(driver);
-        return homePage.isUserDropdownDisplayed();
+        return driver.manage().getCookieNamed("orangehrm") != null;
     }
 
 }
