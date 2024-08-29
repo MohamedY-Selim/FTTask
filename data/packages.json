@@ -1,19 +1,18 @@
 {
   "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
-  "name" : "packages",
   "children" : [ {
     "name" : "src.test.resources.features",
     "children" : [ {
       "name" : "login_feature.Login Feature",
       "children" : [ {
         "name" : "User should be able to login",
-        "uid" : "c83ec4692d4a3d1c",
+        "uid" : "d0cc38546332a4e0",
         "parentUid" : "1a1651eac23963578f0cb46a1eeb80b0",
         "status" : "passed",
         "time" : {
-          "start" : 1724876488034,
-          "stop" : 1724876493403,
-          "duration" : 5369
+          "start" : 1724929572587,
+          "stop" : 1724929577526,
+          "duration" : 4939
         },
         "flaky" : false,
         "parameters" : [ ]
@@ -23,37 +22,37 @@
       "name" : "recruitment_feature.Recruitment Feature",
       "children" : [ {
         "name" : "Admin should be able to navigate to Recruitment Page",
-        "uid" : "4f4dd755e8125acf",
+        "uid" : "481716a042b071cd",
         "parentUid" : "8c511fc6001ca48dd6b865130f07c610",
         "status" : "passed",
         "time" : {
-          "start" : 1724876498429,
-          "stop" : 1724876501244,
-          "duration" : 2815
+          "start" : 1724929577547,
+          "stop" : 1724929580741,
+          "duration" : 3194
         },
         "flaky" : false,
         "parameters" : [ ]
       }, {
         "name" : "Admin should be able to add a new candidate using api, and number of candidates records should be increased by one",
-        "uid" : "72748f6bdc1b6d5b",
+        "uid" : "c92c4461c9c86a04",
         "parentUid" : "8c511fc6001ca48dd6b865130f07c610",
         "status" : "passed",
         "time" : {
-          "start" : 1724876501250,
-          "stop" : 1724876506960,
-          "duration" : 5710
+          "start" : 1724929585754,
+          "stop" : 1724929591731,
+          "duration" : 5977
         },
         "flaky" : false,
         "parameters" : [ ]
       }, {
         "name" : "Admin should be able to delete the new candidate using api, and number of candidates records should be decreased by one",
-        "uid" : "281af7b87fc33ab8",
+        "uid" : "553b0a14d8d3edaa",
         "parentUid" : "8c511fc6001ca48dd6b865130f07c610",
         "status" : "passed",
         "time" : {
-          "start" : 1724876511977,
-          "stop" : 1724876515767,
-          "duration" : 3790
+          "start" : 1724929596743,
+          "stop" : 1724929600464,
+          "duration" : 3721
         },
         "flaky" : false,
         "parameters" : [ ]
@@ -63,37 +62,37 @@
       "name" : "usermanagement_feature.User Management Feature",
       "children" : [ {
         "name" : "Admin should be able to navigate to User Management Page",
-        "uid" : "8c7b3ef53aaaac1e",
+        "uid" : "a58700742ce6969",
         "parentUid" : "29c310b0ab41629801b2ff2522bd9869",
         "status" : "passed",
         "time" : {
-          "start" : 1724876515771,
-          "stop" : 1724876518046,
-          "duration" : 2275
+          "start" : 1724929600466,
+          "stop" : 1724929603562,
+          "duration" : 3096
         },
         "flaky" : false,
         "parameters" : [ ]
       }, {
         "name" : "Admin should be able to add a new user, and number of users records should be increased by one",
-        "uid" : "f31d5dd6c3be6568",
+        "uid" : "24e9f89463ad6910",
         "parentUid" : "29c310b0ab41629801b2ff2522bd9869",
         "status" : "passed",
         "time" : {
-          "start" : 1724876523058,
-          "stop" : 1724876531860,
-          "duration" : 8802
+          "start" : 1724929608577,
+          "stop" : 1724929618142,
+          "duration" : 9565
         },
         "flaky" : false,
         "parameters" : [ ]
       }, {
         "name" : "Admin should be able to delete a user, and number of users records should be decreased by one",
-        "uid" : "c2868e916a7b470c",
+        "uid" : "3009b654887c9060",
         "parentUid" : "29c310b0ab41629801b2ff2522bd9869",
         "status" : "passed",
         "time" : {
-          "start" : 1724876536871,
-          "stop" : 1724876541518,
-          "duration" : 4647
+          "start" : 1724929623155,
+          "stop" : 1724929627686,
+          "duration" : 4531
         },
         "flaky" : false,
         "parameters" : [ ]
@@ -101,5 +100,6 @@
       "uid" : "usermanagement_feature.User Management Feature"
     } ],
     "uid" : "src.test.resources.features"
-  } ]
+  } ],
+  "name" : "packages"
 }

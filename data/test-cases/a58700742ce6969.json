@@ -1,210 +1,195 @@
 {
-  "uid" : "8c7b3ef53aaaac1e",
+  "uid" : "a58700742ce6969",
   "name" : "Admin should be able to navigate to User Management Page",
   "fullName" : "src/test/resources/features/usermanagement.feature:4",
   "historyId" : "85a8163156e926ea32522c0c9b241379",
   "time" : {
-    "start" : 1724876515771,
-    "stop" : 1724876518046,
-    "duration" : 2275
+    "start" : 1724929600466,
+    "stop" : 1724929603562,
+    "duration" : 3096
   },
   "status" : "passed",
   "flaky" : false,
   "beforeStages" : [ {
     "name" : "com.orangehrmlive.demo.opensource.hooks.Hooks.login()",
     "time" : {
-      "start" : 1724876515771,
-      "stop" : 1724876515785,
-      "duration" : 14
+      "start" : 1724929600466,
+      "stop" : 1724929600470,
+      "duration" : 4
     },
     "status" : "passed",
-    "steps" : [ {
-      "name" : "Verify that User Dropdown is Displayed",
-      "time" : {
-        "start" : 1724876515771,
-        "stop" : 1724876515785,
-        "duration" : 14
-      },
-      "status" : "passed",
-      "steps" : [ ],
-      "attachments" : [ ],
-      "parameters" : [ ],
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
-      "stepsCount" : 0,
-      "hasContent" : false
-    } ],
+    "steps" : [ ],
     "attachments" : [ ],
     "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
     "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false,
-    "stepsCount" : 1,
-    "hasContent" : true
+    "shouldDisplayMessage" : false
   } ],
   "testStage" : {
     "status" : "passed",
     "steps" : [ {
       "name" : "Given Admin is at the home page",
       "time" : {
-        "start" : 1724876515785,
-        "stop" : 1724876516418,
-        "duration" : 633
+        "start" : 1724929600470,
+        "stop" : 1724929601441,
+        "duration" : 971
       },
       "status" : "passed",
       "steps" : [ {
         "name" : "Load the Login Page",
         "time" : {
-          "start" : 1724876515786,
-          "stop" : 1724876516131,
-          "duration" : 345
+          "start" : 1724929600471,
+          "stop" : 1724929601110,
+          "duration" : 639
         },
         "status" : "passed",
         "steps" : [ ],
         "attachments" : [ ],
         "parameters" : [ ],
-        "attachmentsCount" : 0,
-        "shouldDisplayMessage" : false,
+        "hasContent" : false,
         "stepsCount" : 0,
-        "hasContent" : false
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
       }, {
         "name" : "Verify that Home Page Header is Displayed",
         "time" : {
-          "start" : 1724876516131,
-          "stop" : 1724876516418,
-          "duration" : 287
+          "start" : 1724929601111,
+          "stop" : 1724929601441,
+          "duration" : 330
         },
         "status" : "passed",
         "steps" : [ ],
         "attachments" : [ ],
         "parameters" : [ ],
-        "attachmentsCount" : 0,
-        "shouldDisplayMessage" : false,
+        "hasContent" : false,
         "stepsCount" : 0,
-        "hasContent" : false
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
       } ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
+      "hasContent" : true,
       "stepsCount" : 2,
-      "hasContent" : true
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
     }, {
       "name" : "When Admin click on Admin tab on the left side menu",
       "time" : {
-        "start" : 1724876516418,
-        "stop" : 1724876517290,
-        "duration" : 872
+        "start" : 1724929601441,
+        "stop" : 1724929603132,
+        "duration" : 1691
       },
       "status" : "passed",
       "steps" : [ {
         "name" : "Click on Admin tab on the left side menu",
         "time" : {
-          "start" : 1724876516418,
-          "stop" : 1724876517290,
-          "duration" : 872
+          "start" : 1724929601441,
+          "stop" : 1724929603132,
+          "duration" : 1691
         },
         "status" : "passed",
         "steps" : [ ],
         "attachments" : [ ],
         "parameters" : [ ],
-        "attachmentsCount" : 0,
-        "shouldDisplayMessage" : false,
+        "hasContent" : false,
         "stepsCount" : 0,
-        "hasContent" : false
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
       } ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
+      "hasContent" : true,
       "stepsCount" : 1,
-      "hasContent" : true
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
     }, {
       "name" : "Then User Management Page should be displayed",
       "time" : {
-        "start" : 1724876517290,
-        "stop" : 1724876517916,
-        "duration" : 626
+        "start" : 1724929603132,
+        "stop" : 1724929603452,
+        "duration" : 320
       },
       "status" : "passed",
       "steps" : [ {
         "name" : "Verify that User Management Page Header is Displayed",
         "time" : {
-          "start" : 1724876517291,
-          "stop" : 1724876517912,
-          "duration" : 621
+          "start" : 1724929603133,
+          "stop" : 1724929603449,
+          "duration" : 316
         },
         "status" : "passed",
         "steps" : [ ],
         "attachments" : [ ],
         "parameters" : [ ],
-        "attachmentsCount" : 0,
-        "shouldDisplayMessage" : false,
+        "hasContent" : false,
         "stepsCount" : 0,
-        "hasContent" : false
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
       } ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
+      "hasContent" : true,
       "stepsCount" : 1,
-      "hasContent" : true
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
     } ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false,
+    "hasContent" : true,
     "stepsCount" : 7,
-    "hasContent" : true
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
   },
   "afterStages" : [ {
     "name" : "com.orangehrmlive.demo.opensource.hooks.Hooks.afterScenario(io.cucumber.java.Scenario)",
     "time" : {
-      "start" : 1724876517917,
-      "stop" : 1724876518045,
-      "duration" : 128
+      "start" : 1724929603453,
+      "stop" : 1724929603562,
+      "duration" : 109
     },
     "status" : "passed",
     "steps" : [ {
       "name" : "Log scenario result",
       "time" : {
-        "start" : 1724876517917,
-        "stop" : 1724876518045,
-        "duration" : 128
+        "start" : 1724929603453,
+        "stop" : 1724929603561,
+        "duration" : 108
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ {
-        "uid" : "ea6d607cec257fc4",
+        "uid" : "f12d9271cb38c85b",
         "name" : "screenshot",
-        "source" : "ea6d607cec257fc4.png",
+        "source" : "f12d9271cb38c85b.png",
         "type" : "image/png",
-        "size" : 94118
+        "size" : 97440
       } ],
       "parameters" : [ {
         "name" : "scenario",
-        "value" : "io.cucumber.java.Scenario@43874120"
+        "value" : "io.cucumber.java.Scenario@1fab1909"
       } ],
-      "attachmentsCount" : 1,
-      "shouldDisplayMessage" : false,
+      "hasContent" : true,
       "stepsCount" : 0,
-      "hasContent" : true
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
     } ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "attachmentsCount" : 1,
-    "shouldDisplayMessage" : false,
+    "hasContent" : true,
     "stepsCount" : 1,
-    "hasContent" : true
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
   } ],
   "labels" : [ {
     "name" : "tag",
     "value" : "requiresLogin"
   }, {
     "name" : "host",
-    "value" : "Mac-1724875699164.local"
+    "value" : "Mac-1724928395009.local"
   }, {
     "name" : "thread",
-    "value" : "2850@Mac-1724875699164.local.main(1)"
+    "value" : "3097@Mac-1724928395009.local.main(1)"
   }, {
     "name" : "feature",
     "value" : "User Management Feature"
@@ -243,6 +228,6 @@
     "categories" : [ ],
     "tags" : [ "requiresLogin" ]
   },
-  "source" : "8c7b3ef53aaaac1e.json",
+  "source" : "a58700742ce6969.json",
   "parameterValues" : [ ]
 }
