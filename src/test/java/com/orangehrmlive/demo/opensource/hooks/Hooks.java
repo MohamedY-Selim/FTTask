@@ -102,7 +102,6 @@ public class Hooks {
             loginSteps.userIsAtTheLoginPage();
             loginSteps.userFillTheCredentialsAndLogin();
             loginSteps.homePageShouldBeDisplayed();
-            System.out.println(driver.manage().getCookieNamed("orangehrm"));
         }
     }
 

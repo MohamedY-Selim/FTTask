@@ -23,7 +23,7 @@ public class DriverFactory {
         driver.manage().window().maximize();
 
         DriverFactory.driver.set(driver);
-        return driver;
+        return getDriver();
     }
 
     public static WebDriver getDriver() {
