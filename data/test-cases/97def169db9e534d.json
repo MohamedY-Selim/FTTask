@@ -1,21 +1,21 @@
 {
-  "uid" : "2ddc3244b5dcbdfe",
-  "name" : "Admin should be able to add a new candidate using api, and number of candidates records should be increased by one",
-  "fullName" : "src/test/resources/features/recruitment.feature:9",
-  "historyId" : "3d6c002b5468da53792d01fdc8b36e52",
+  "uid" : "97def169db9e534d",
+  "name" : "Admin should be able to navigate to User Management Page",
+  "fullName" : "src/test/resources/features/usermanagement.feature:4",
+  "historyId" : "85a8163156e926ea32522c0c9b241379",
   "time" : {
-    "start" : 1724929798235,
-    "stop" : 1724929804788,
-    "duration" : 6553
+    "start" : 1725016794563,
+    "stop" : 1725016796930,
+    "duration" : 2367
   },
   "status" : "passed",
   "flaky" : false,
   "beforeStages" : [ {
     "name" : "com.orangehrmlive.demo.opensource.hooks.Hooks.login()",
     "time" : {
-      "start" : 1724929798235,
-      "stop" : 1724929798241,
-      "duration" : 6
+      "start" : 1725016794563,
+      "stop" : 1725016794567,
+      "duration" : 4
     },
     "status" : "passed",
     "steps" : [ ],
@@ -29,19 +29,19 @@
   "testStage" : {
     "status" : "passed",
     "steps" : [ {
-      "name" : "Given Admin is at the Recruitment page",
+      "name" : "Given Admin is at the home page",
       "time" : {
-        "start" : 1724929798242,
-        "stop" : 1724929799986,
-        "duration" : 1744
+        "start" : 1725016794567,
+        "stop" : 1725016795235,
+        "duration" : 668
       },
       "status" : "passed",
       "steps" : [ {
-        "name" : "Load the User Management Page",
+        "name" : "Load the Home Page",
         "time" : {
-          "start" : 1724929798243,
-          "stop" : 1724929798852,
-          "duration" : 609
+          "start" : 1725016794568,
+          "stop" : 1725016794986,
+          "duration" : 418
         },
         "status" : "passed",
         "steps" : [ ],
@@ -52,11 +52,11 @@
         "attachmentsCount" : 0,
         "shouldDisplayMessage" : false
       }, {
-        "name" : "Get Current candidates count",
+        "name" : "Verify that Home Page Header is Displayed",
         "time" : {
-          "start" : 1724929798852,
-          "stop" : 1724929799986,
-          "duration" : 1134
+          "start" : 1725016794986,
+          "stop" : 1725016795235,
+          "duration" : 249
         },
         "status" : "passed",
         "steps" : [ ],
@@ -74,49 +74,19 @@
       "attachmentsCount" : 0,
       "shouldDisplayMessage" : false
     }, {
-      "name" : "When Admin add a new candidate using api",
+      "name" : "When Admin click on Admin tab on the left side menu",
       "time" : {
-        "start" : 1724929799986,
-        "stop" : 1724929803012,
-        "duration" : 3026
-      },
-      "status" : "passed",
-      "steps" : [ ],
-      "attachments" : [ ],
-      "parameters" : [ ],
-      "stepsCount" : 0,
-      "hasContent" : false,
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false
-    }, {
-      "name" : "Then Number of candidates records should be increased by one",
-      "time" : {
-        "start" : 1724929803012,
-        "stop" : 1724929804677,
-        "duration" : 1665
+        "start" : 1725016795235,
+        "stop" : 1725016796527,
+        "duration" : 1292
       },
       "status" : "passed",
       "steps" : [ {
-        "name" : "Load the User Management Page",
+        "name" : "Click on Admin tab on the left side menu",
         "time" : {
-          "start" : 1724929803013,
-          "stop" : 1724929803371,
-          "duration" : 358
-        },
-        "status" : "passed",
-        "steps" : [ ],
-        "attachments" : [ ],
-        "parameters" : [ ],
-        "stepsCount" : 0,
-        "hasContent" : false,
-        "attachmentsCount" : 0,
-        "shouldDisplayMessage" : false
-      }, {
-        "name" : "Get Current candidates count",
-        "time" : {
-          "start" : 1724929803371,
-          "stop" : 1724929804676,
-          "duration" : 1305
+          "start" : 1725016795236,
+          "stop" : 1725016796527,
+          "duration" : 1291
         },
         "status" : "passed",
         "steps" : [ ],
@@ -129,7 +99,37 @@
       } ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "stepsCount" : 2,
+      "stepsCount" : 1,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Then User Management Page should be displayed",
+      "time" : {
+        "start" : 1725016796527,
+        "stop" : 1725016796779,
+        "duration" : 252
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Verify that User Management Page Header is Displayed",
+        "time" : {
+          "start" : 1725016796527,
+          "stop" : 1725016796775,
+          "duration" : 248
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
       "hasContent" : true,
       "attachmentsCount" : 0,
       "shouldDisplayMessage" : false
@@ -144,30 +144,30 @@
   "afterStages" : [ {
     "name" : "com.orangehrmlive.demo.opensource.hooks.Hooks.afterScenario(io.cucumber.java.Scenario)",
     "time" : {
-      "start" : 1724929804677,
-      "stop" : 1724929804787,
-      "duration" : 110
+      "start" : 1725016796779,
+      "stop" : 1725016796928,
+      "duration" : 149
     },
     "status" : "passed",
     "steps" : [ {
       "name" : "Log scenario result",
       "time" : {
-        "start" : 1724929804677,
-        "stop" : 1724929804787,
-        "duration" : 110
+        "start" : 1725016796779,
+        "stop" : 1725016796928,
+        "duration" : 149
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ {
-        "uid" : "4fc3c87d0b877ef4",
+        "uid" : "b7970530f5d15b26",
         "name" : "screenshot",
-        "source" : "4fc3c87d0b877ef4.png",
+        "source" : "b7970530f5d15b26.png",
         "type" : "image/png",
-        "size" : 125098
+        "size" : 103955
       } ],
       "parameters" : [ {
         "name" : "scenario",
-        "value" : "io.cucumber.java.Scenario@2fb0867c"
+        "value" : "io.cucumber.java.Scenario@4eab4474"
       } ],
       "stepsCount" : 0,
       "hasContent" : true,
@@ -186,22 +186,22 @@
     "value" : "requiresLogin"
   }, {
     "name" : "host",
-    "value" : "Mac-1724928761132.local"
+    "value" : "Mac-1725015686201.local"
   }, {
     "name" : "thread",
-    "value" : "3333@Mac-1724928761132.local.main(1)"
+    "value" : "3386@Mac-1725015686201.local.main(1)"
   }, {
     "name" : "feature",
-    "value" : "Recruitment Feature"
+    "value" : "User Management Feature"
   }, {
     "name" : "story",
-    "value" : "Admin should be able to add a new candidate using api, and number of candidates records should be increased by one"
+    "value" : "Admin should be able to navigate to User Management Page"
   }, {
     "name" : "suite",
-    "value" : "Recruitment Feature"
+    "value" : "User Management Feature"
   }, {
     "name" : "testClass",
-    "value" : "Admin should be able to add a new candidate using api, and number of candidates records should be increased by one"
+    "value" : "Admin should be able to navigate to User Management Page"
   }, {
     "name" : "framework",
     "value" : "cucumber4jvm"
@@ -210,10 +210,10 @@
     "value" : "java"
   }, {
     "name" : "gherkin_uri",
-    "value" : "file:///Users/runner/work/FTTask/FTTask/src/test/resources/features/recruitment.feature"
+    "value" : "file:///Users/runner/work/FTTask/FTTask/src/test/resources/features/usermanagement.feature"
   }, {
     "name" : "package",
-    "value" : "src.test.resources.features.recruitment_feature.Recruitment Feature"
+    "value" : "src.test.resources.features.usermanagement_feature.User Management Feature"
   }, {
     "name" : "resultFormat",
     "value" : "allure2"
@@ -228,6 +228,6 @@
     "categories" : [ ],
     "tags" : [ "requiresLogin" ]
   },
-  "source" : "2ddc3244b5dcbdfe.json",
+  "source" : "97def169db9e534d.json",
   "parameterValues" : [ ]
 }

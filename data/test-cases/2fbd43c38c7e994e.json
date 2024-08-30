@@ -1,21 +1,21 @@
 {
-  "uid" : "bb0f887d27f3744e",
+  "uid" : "2fbd43c38c7e994e",
   "name" : "Admin should be able to delete a user, and number of users records should be decreased by one",
   "fullName" : "src/test/resources/features/usermanagement.feature:16",
   "historyId" : "487b51920fd148827a96ea6a801d75d8",
   "time" : {
-    "start" : 1724929835843,
-    "stop" : 1724929840940,
-    "duration" : 5097
+    "start" : 1725016816765,
+    "stop" : 1725016821355,
+    "duration" : 4590
   },
   "status" : "passed",
   "flaky" : false,
   "beforeStages" : [ {
-    "name" : "com.orangehrmlive.demo.opensource.steps.UserManagementSteps.addUser()",
+    "name" : "com.orangehrmlive.demo.opensource.hooks.Hooks.login()",
     "time" : {
-      "start" : 1724929835859,
-      "stop" : 1724929835860,
-      "duration" : 1
+      "start" : 1725016816765,
+      "stop" : 1725016816772,
+      "duration" : 7
     },
     "status" : "passed",
     "steps" : [ ],
@@ -26,11 +26,11 @@
     "attachmentsCount" : 0,
     "shouldDisplayMessage" : false
   }, {
-    "name" : "com.orangehrmlive.demo.opensource.hooks.Hooks.login()",
+    "name" : "com.orangehrmlive.demo.opensource.steps.UserManagementSteps.addUser()",
     "time" : {
-      "start" : 1724929835843,
-      "stop" : 1724929835857,
-      "duration" : 14
+      "start" : 1725016816774,
+      "stop" : 1725016816774,
+      "duration" : 0
     },
     "status" : "passed",
     "steps" : [ ],
@@ -46,17 +46,17 @@
     "steps" : [ {
       "name" : "Given Admin is at the user management page",
       "time" : {
-        "start" : 1724929835861,
-        "stop" : 1724929836958,
-        "duration" : 1097
+        "start" : 1725016816775,
+        "stop" : 1725016817879,
+        "duration" : 1104
       },
       "status" : "passed",
       "steps" : [ {
         "name" : "Load the User Management Page",
         "time" : {
-          "start" : 1724929835862,
-          "stop" : 1724929836189,
-          "duration" : 327
+          "start" : 1725016816775,
+          "stop" : 1725016817172,
+          "duration" : 397
         },
         "status" : "passed",
         "steps" : [ ],
@@ -69,9 +69,9 @@
       }, {
         "name" : "Get Current users count",
         "time" : {
-          "start" : 1724929836189,
-          "stop" : 1724929836958,
-          "duration" : 769
+          "start" : 1725016817172,
+          "stop" : 1725016817879,
+          "duration" : 707
         },
         "status" : "passed",
         "steps" : [ ],
@@ -91,24 +91,24 @@
     }, {
       "name" : "When Admin fill user data, and search",
       "time" : {
-        "start" : 1724929836958,
-        "stop" : 1724929838278,
-        "duration" : 1320
+        "start" : 1725016817879,
+        "stop" : 1725016819456,
+        "duration" : 1577
       },
       "status" : "passed",
       "steps" : [ {
         "name" : "Fill User Data to search",
         "time" : {
-          "start" : 1724929836958,
-          "stop" : 1724929838278,
-          "duration" : 1320
+          "start" : 1725016817880,
+          "stop" : 1725016819456,
+          "duration" : 1576
         },
         "status" : "passed",
         "steps" : [ ],
         "attachments" : [ ],
         "parameters" : [ {
           "name" : "user",
-          "value" : "com.orangehrmlive.demo.opensource.objects.User@5db4e558"
+          "value" : "com.orangehrmlive.demo.opensource.objects.User@2a4ff62"
         } ],
         "stepsCount" : 0,
         "hasContent" : true,
@@ -124,24 +124,24 @@
     }, {
       "name" : "And Click on Delete button, and confirm",
       "time" : {
-        "start" : 1724929838278,
-        "stop" : 1724929839389,
-        "duration" : 1111
+        "start" : 1725016819456,
+        "stop" : 1725016820055,
+        "duration" : 599
       },
       "status" : "passed",
       "steps" : [ {
         "name" : "Delete the new User",
         "time" : {
-          "start" : 1724929838279,
-          "stop" : 1724929839389,
-          "duration" : 1110
+          "start" : 1725016819456,
+          "stop" : 1725016820001,
+          "duration" : 545
         },
         "status" : "passed",
         "steps" : [ ],
         "attachments" : [ ],
         "parameters" : [ {
           "name" : "user",
-          "value" : "com.orangehrmlive.demo.opensource.objects.User@5db4e558"
+          "value" : "com.orangehrmlive.demo.opensource.objects.User@2a4ff62"
         } ],
         "stepsCount" : 0,
         "hasContent" : true,
@@ -157,17 +157,17 @@
     }, {
       "name" : "Then Number of users records should be decreased by one",
       "time" : {
-        "start" : 1724929839389,
-        "stop" : 1724929840821,
-        "duration" : 1432
+        "start" : 1725016820055,
+        "stop" : 1725016821233,
+        "duration" : 1178
       },
       "status" : "passed",
       "steps" : [ {
         "name" : "Load the User Management Page",
         "time" : {
-          "start" : 1724929839390,
-          "stop" : 1724929839836,
-          "duration" : 446
+          "start" : 1725016820056,
+          "stop" : 1725016820486,
+          "duration" : 430
         },
         "status" : "passed",
         "steps" : [ ],
@@ -180,9 +180,9 @@
       }, {
         "name" : "Get Current users count",
         "time" : {
-          "start" : 1724929839836,
-          "stop" : 1724929840820,
-          "duration" : 984
+          "start" : 1725016820486,
+          "stop" : 1725016821233,
+          "duration" : 747
         },
         "status" : "passed",
         "steps" : [ ],
@@ -210,30 +210,30 @@
   "afterStages" : [ {
     "name" : "com.orangehrmlive.demo.opensource.hooks.Hooks.afterScenario(io.cucumber.java.Scenario)",
     "time" : {
-      "start" : 1724929840821,
-      "stop" : 1724929840939,
-      "duration" : 118
+      "start" : 1725016821233,
+      "stop" : 1725016821354,
+      "duration" : 121
     },
     "status" : "passed",
     "steps" : [ {
       "name" : "Log scenario result",
       "time" : {
-        "start" : 1724929840821,
-        "stop" : 1724929840939,
-        "duration" : 118
+        "start" : 1725016821233,
+        "stop" : 1725016821354,
+        "duration" : 121
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ {
-        "uid" : "feb3b176647a29f",
+        "uid" : "61c8acb466c91fb3",
         "name" : "screenshot",
-        "source" : "feb3b176647a29f.png",
+        "source" : "61c8acb466c91fb3.png",
         "type" : "image/png",
-        "size" : 128815
+        "size" : 123792
       } ],
       "parameters" : [ {
         "name" : "scenario",
-        "value" : "io.cucumber.java.Scenario@14344b44"
+        "value" : "io.cucumber.java.Scenario@5684d608"
       } ],
       "stepsCount" : 0,
       "hasContent" : true,
@@ -255,10 +255,10 @@
     "value" : "requiresUserAdd"
   }, {
     "name" : "host",
-    "value" : "Mac-1724928761132.local"
+    "value" : "Mac-1725015686201.local"
   }, {
     "name" : "thread",
-    "value" : "3333@Mac-1724928761132.local.main(1)"
+    "value" : "3386@Mac-1725015686201.local.main(1)"
   }, {
     "name" : "feature",
     "value" : "User Management Feature"
@@ -297,6 +297,6 @@
     "categories" : [ ],
     "tags" : [ "requiresUserAdd", "requiresLogin" ]
   },
-  "source" : "bb0f887d27f3744e.json",
+  "source" : "2fbd43c38c7e994e.json",
   "parameterValues" : [ ]
 }

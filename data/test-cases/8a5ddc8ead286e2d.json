@@ -1,21 +1,21 @@
 {
-  "uid" : "381152f52736b502",
+  "uid" : "8a5ddc8ead286e2d",
   "name" : "Admin should be able to add a new user, and number of users records should be increased by one",
   "fullName" : "src/test/resources/features/usermanagement.feature:9",
   "historyId" : "71703b54b33a7a74fc55bf8011334e46",
   "time" : {
-    "start" : 1724929821844,
-    "stop" : 1724929830825,
-    "duration" : 8981
+    "start" : 1725016801945,
+    "stop" : 1725016811754,
+    "duration" : 9809
   },
   "status" : "passed",
   "flaky" : false,
   "beforeStages" : [ {
     "name" : "com.orangehrmlive.demo.opensource.hooks.Hooks.login()",
     "time" : {
-      "start" : 1724929821844,
-      "stop" : 1724929821854,
-      "duration" : 10
+      "start" : 1725016801945,
+      "stop" : 1725016801950,
+      "duration" : 5
     },
     "status" : "passed",
     "steps" : [ ],
@@ -31,17 +31,17 @@
     "steps" : [ {
       "name" : "Given Admin is at the user management page",
       "time" : {
-        "start" : 1724929821855,
-        "stop" : 1724929823030,
-        "duration" : 1175
+        "start" : 1725016801950,
+        "stop" : 1725016802994,
+        "duration" : 1044
       },
       "status" : "passed",
       "steps" : [ {
         "name" : "Load the User Management Page",
         "time" : {
-          "start" : 1724929821857,
-          "stop" : 1724929822223,
-          "duration" : 366
+          "start" : 1725016801951,
+          "stop" : 1725016802341,
+          "duration" : 390
         },
         "status" : "passed",
         "steps" : [ ],
@@ -54,9 +54,9 @@
       }, {
         "name" : "Get Current users count",
         "time" : {
-          "start" : 1724929822223,
-          "stop" : 1724929823030,
-          "duration" : 807
+          "start" : 1725016802341,
+          "stop" : 1725016802993,
+          "duration" : 652
         },
         "status" : "passed",
         "steps" : [ ],
@@ -76,17 +76,17 @@
     }, {
       "name" : "When Admin Click on add button",
       "time" : {
-        "start" : 1724929823030,
-        "stop" : 1724929823728,
-        "duration" : 698
+        "start" : 1725016802994,
+        "stop" : 1725016803743,
+        "duration" : 749
       },
       "status" : "passed",
       "steps" : [ {
         "name" : "Click on Add Button",
         "time" : {
-          "start" : 1724929823031,
-          "stop" : 1724929823413,
-          "duration" : 382
+          "start" : 1725016802994,
+          "stop" : 1725016803343,
+          "duration" : 349
         },
         "status" : "passed",
         "steps" : [ ],
@@ -99,9 +99,9 @@
       }, {
         "name" : "Verify that Add User Form Header is Displayed",
         "time" : {
-          "start" : 1724929823413,
-          "stop" : 1724929823726,
-          "duration" : 313
+          "start" : 1725016803343,
+          "stop" : 1725016803736,
+          "duration" : 393
         },
         "status" : "passed",
         "steps" : [ ],
@@ -121,17 +121,17 @@
     }, {
       "name" : "And Fill new user data, and save",
       "time" : {
-        "start" : 1724929823728,
-        "stop" : 1724929825684,
-        "duration" : 1956
+        "start" : 1725016803743,
+        "stop" : 1725016805996,
+        "duration" : 2253
       },
       "status" : "passed",
       "steps" : [ {
         "name" : "Fill New User Data",
         "time" : {
-          "start" : 1724929823729,
-          "stop" : 1724929825649,
-          "duration" : 1920
+          "start" : 1725016803744,
+          "stop" : 1725016805872,
+          "duration" : 2128
         },
         "status" : "passed",
         "steps" : [ ],
@@ -144,9 +144,9 @@
       }, {
         "name" : "Click on Save Button",
         "time" : {
-          "start" : 1724929825649,
-          "stop" : 1724929825684,
-          "duration" : 35
+          "start" : 1725016805872,
+          "stop" : 1725016805996,
+          "duration" : 124
         },
         "status" : "passed",
         "steps" : [ ],
@@ -166,17 +166,17 @@
     }, {
       "name" : "Then Number of users records should be increased by one",
       "time" : {
-        "start" : 1724929825684,
-        "stop" : 1724929830703,
-        "duration" : 5019
+        "start" : 1725016805996,
+        "stop" : 1725016811644,
+        "duration" : 5648
       },
       "status" : "passed",
       "steps" : [ {
         "name" : "Get Current users count",
         "time" : {
-          "start" : 1724929825684,
-          "stop" : 1724929830702,
-          "duration" : 5018
+          "start" : 1725016805996,
+          "stop" : 1725016811644,
+          "duration" : 5648
         },
         "status" : "passed",
         "steps" : [ ],
@@ -204,30 +204,30 @@
   "afterStages" : [ {
     "name" : "com.orangehrmlive.demo.opensource.hooks.Hooks.afterScenario(io.cucumber.java.Scenario)",
     "time" : {
-      "start" : 1724929830703,
-      "stop" : 1724929830824,
-      "duration" : 121
+      "start" : 1725016811644,
+      "stop" : 1725016811754,
+      "duration" : 110
     },
     "status" : "passed",
     "steps" : [ {
       "name" : "Log scenario result",
       "time" : {
-        "start" : 1724929830703,
-        "stop" : 1724929830824,
-        "duration" : 121
+        "start" : 1725016811644,
+        "stop" : 1725016811754,
+        "duration" : 110
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ {
-        "uid" : "e6323a7ed66b24c3",
+        "uid" : "92d2f07702554166",
         "name" : "screenshot",
-        "source" : "e6323a7ed66b24c3.png",
+        "source" : "92d2f07702554166.png",
         "type" : "image/png",
-        "size" : 128786
+        "size" : 129460
       } ],
       "parameters" : [ {
         "name" : "scenario",
-        "value" : "io.cucumber.java.Scenario@26c79134"
+        "value" : "io.cucumber.java.Scenario@1b40c635"
       } ],
       "stepsCount" : 0,
       "hasContent" : true,
@@ -246,10 +246,10 @@
     "value" : "requiresLogin"
   }, {
     "name" : "host",
-    "value" : "Mac-1724928761132.local"
+    "value" : "Mac-1725015686201.local"
   }, {
     "name" : "thread",
-    "value" : "3333@Mac-1724928761132.local.main(1)"
+    "value" : "3386@Mac-1725015686201.local.main(1)"
   }, {
     "name" : "feature",
     "value" : "User Management Feature"
@@ -288,6 +288,6 @@
     "categories" : [ ],
     "tags" : [ "requiresLogin" ]
   },
-  "source" : "381152f52736b502.json",
+  "source" : "8a5ddc8ead286e2d.json",
   "parameterValues" : [ ]
 }
