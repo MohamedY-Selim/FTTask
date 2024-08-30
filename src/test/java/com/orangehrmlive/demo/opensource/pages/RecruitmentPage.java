@@ -40,7 +40,7 @@ public class RecruitmentPage extends BasePage<RecruitmentPage> {
     //
 
     //Methods
-    @Step("Load the User Management Page")
+    @Step("Load the Recruitment Page")
     @Override
     public RecruitmentPage load() {
         driver.get(ConfigUtils.getInstance().getBaseUrl() + EndPoint.Recruitment_PAGE_END_POINT);

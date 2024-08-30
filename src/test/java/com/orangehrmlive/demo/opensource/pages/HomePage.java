@@ -31,7 +31,7 @@ public class HomePage extends BasePage<HomePage> {
     //
 
     //Methods
-    @Step("Load the Login Page")
+    @Step("Load the Home Page")
     @Override
     public HomePage load() {
         driver.get(ConfigUtils.getInstance().getBaseUrl() + EndPoint.HOME_PAGE_END_POINT);
