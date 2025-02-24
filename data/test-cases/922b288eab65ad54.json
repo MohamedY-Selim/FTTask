@@ -1,47 +1,32 @@
 {
-  "uid" : "39d2cb00d091e85",
-  "name" : "Admin should be able to navigate to Recruitment Page",
-  "fullName" : "src/test/resources/features/recruitment.feature:4",
-  "historyId" : "519af8428ab84e1d4b7a403542856b7",
+  "uid" : "922b288eab65ad54",
+  "name" : "User should be able to login",
+  "fullName" : "src/test/resources/features/login.feature:2",
+  "historyId" : "a30785d677cff3b305a99d403beb1b4",
   "time" : {
-    "start" : 1725016776810,
-    "stop" : 1725016779556,
-    "duration" : 2746
+    "start" : 1740414461214,
+    "stop" : 1740414465176,
+    "duration" : 3962
   },
   "status" : "passed",
   "flaky" : false,
-  "beforeStages" : [ {
-    "name" : "com.orangehrmlive.demo.opensource.hooks.Hooks.login()",
-    "time" : {
-      "start" : 1725016776813,
-      "stop" : 1725016776834,
-      "duration" : 21
-    },
-    "status" : "passed",
-    "steps" : [ ],
-    "attachments" : [ ],
-    "parameters" : [ ],
-    "stepsCount" : 0,
-    "hasContent" : false,
-    "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false
-  } ],
+  "beforeStages" : [ ],
   "testStage" : {
     "status" : "passed",
     "steps" : [ {
-      "name" : "Given Admin is at the home page",
+      "name" : "Given User is at the login page",
       "time" : {
-        "start" : 1725016776847,
-        "stop" : 1725016777544,
-        "duration" : 697
+        "start" : 1740414461216,
+        "stop" : 1740414462335,
+        "duration" : 1119
       },
       "status" : "passed",
       "steps" : [ {
-        "name" : "Load the Home Page",
+        "name" : "Load the Login Page",
         "time" : {
-          "start" : 1725016776849,
-          "stop" : 1725016777254,
-          "duration" : 405
+          "start" : 1740414461247,
+          "stop" : 1740414462025,
+          "duration" : 778
         },
         "status" : "passed",
         "steps" : [ ],
@@ -52,11 +37,11 @@
         "attachmentsCount" : 0,
         "shouldDisplayMessage" : false
       }, {
-        "name" : "Verify that Home Page Header is Displayed",
+        "name" : "Verify that Login Page Header is Displayed",
         "time" : {
-          "start" : 1725016777254,
-          "stop" : 1725016777543,
-          "duration" : 289
+          "start" : 1740414462026,
+          "stop" : 1740414462331,
+          "duration" : 305
         },
         "status" : "passed",
         "steps" : [ ],
@@ -74,19 +59,34 @@
       "attachmentsCount" : 0,
       "shouldDisplayMessage" : false
     }, {
-      "name" : "When Admin click on Recruitment tab on the left side menu",
+      "name" : "When User fill the credentials, and login",
       "time" : {
-        "start" : 1725016777544,
-        "stop" : 1725016778906,
-        "duration" : 1362
+        "start" : 1740414462337,
+        "stop" : 1740414463471,
+        "duration" : 1134
       },
       "status" : "passed",
       "steps" : [ {
-        "name" : "Click on Recruitment tab on the left side menu",
+        "name" : "Fill Login form",
         "time" : {
-          "start" : 1725016777547,
-          "stop" : 1725016778906,
-          "duration" : 1359
+          "start" : 1740414462337,
+          "stop" : 1740414462628,
+          "duration" : 291
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "Click on Login Button",
+        "time" : {
+          "start" : 1740414462628,
+          "stop" : 1740414463471,
+          "duration" : 843
         },
         "status" : "passed",
         "steps" : [ ],
@@ -99,24 +99,24 @@
       } ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "stepsCount" : 1,
+      "stepsCount" : 2,
       "hasContent" : true,
       "attachmentsCount" : 0,
       "shouldDisplayMessage" : false
     }, {
-      "name" : "Then Recruitment Page should be displayed",
+      "name" : "Then Home Page should be displayed",
       "time" : {
-        "start" : 1725016778906,
-        "stop" : 1725016779329,
-        "duration" : 423
+        "start" : 1740414463471,
+        "stop" : 1740414463736,
+        "duration" : 265
       },
       "status" : "passed",
       "steps" : [ {
-        "name" : "Verify that Recruitment Header is Displayed",
+        "name" : "Verify that Home Page Header is Displayed",
         "time" : {
-          "start" : 1725016778907,
-          "stop" : 1725016779324,
-          "duration" : 417
+          "start" : 1740414463471,
+          "stop" : 1740414463706,
+          "duration" : 235
         },
         "status" : "passed",
         "steps" : [ ],
@@ -136,7 +136,7 @@
     } ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "stepsCount" : 7,
+    "stepsCount" : 8,
     "hasContent" : true,
     "attachmentsCount" : 0,
     "shouldDisplayMessage" : false
@@ -144,30 +144,30 @@
   "afterStages" : [ {
     "name" : "com.orangehrmlive.demo.opensource.hooks.Hooks.afterScenario(io.cucumber.java.Scenario)",
     "time" : {
-      "start" : 1725016779329,
-      "stop" : 1725016779555,
-      "duration" : 226
+      "start" : 1740414463738,
+      "stop" : 1740414465121,
+      "duration" : 1383
     },
     "status" : "passed",
     "steps" : [ {
       "name" : "Log scenario result",
       "time" : {
-        "start" : 1725016779329,
-        "stop" : 1725016779555,
-        "duration" : 226
+        "start" : 1740414463740,
+        "stop" : 1740414465120,
+        "duration" : 1380
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ {
-        "uid" : "1aba65c760151215",
+        "uid" : "4a96d3c262a5d5be",
         "name" : "screenshot",
-        "source" : "1aba65c760151215.png",
+        "source" : "4a96d3c262a5d5be.png",
         "type" : "image/png",
-        "size" : 108572
+        "size" : 153477
       } ],
       "parameters" : [ {
         "name" : "scenario",
-        "value" : "io.cucumber.java.Scenario@7bc8ffbc"
+        "value" : "io.cucumber.java.Scenario@4c8abec7"
       } ],
       "stepsCount" : 0,
       "hasContent" : true,
@@ -182,26 +182,23 @@
     "shouldDisplayMessage" : false
   } ],
   "labels" : [ {
-    "name" : "tag",
-    "value" : "requiresLogin"
-  }, {
     "name" : "host",
-    "value" : "Mac-1725015686201.local"
+    "value" : "Mac-1740414247587.local"
   }, {
     "name" : "thread",
-    "value" : "3386@Mac-1725015686201.local.main(1)"
+    "value" : "2100@Mac-1740414247587.local.main(1)"
   }, {
     "name" : "feature",
-    "value" : "Recruitment Feature"
+    "value" : "Login Feature"
   }, {
     "name" : "story",
-    "value" : "Admin should be able to navigate to Recruitment Page"
+    "value" : "User should be able to login"
   }, {
     "name" : "suite",
-    "value" : "Recruitment Feature"
+    "value" : "Login Feature"
   }, {
     "name" : "testClass",
-    "value" : "Admin should be able to navigate to Recruitment Page"
+    "value" : "User should be able to login"
   }, {
     "name" : "framework",
     "value" : "cucumber4jvm"
@@ -210,10 +207,10 @@
     "value" : "java"
   }, {
     "name" : "gherkin_uri",
-    "value" : "file:///Users/runner/work/FTTask/FTTask/src/test/resources/features/recruitment.feature"
+    "value" : "file:///Users/runner/work/FTTask/FTTask/src/test/resources/features/login.feature"
   }, {
     "name" : "package",
-    "value" : "src.test.resources.features.recruitment_feature.Recruitment Feature"
+    "value" : "src.test.resources.features.login_feature.Login Feature"
   }, {
     "name" : "resultFormat",
     "value" : "allure2"
@@ -226,8 +223,8 @@
     "severity" : "normal",
     "retries" : [ ],
     "categories" : [ ],
-    "tags" : [ "requiresLogin" ]
+    "tags" : [ ]
   },
-  "source" : "39d2cb00d091e85.json",
+  "source" : "922b288eab65ad54.json",
   "parameterValues" : [ ]
 }

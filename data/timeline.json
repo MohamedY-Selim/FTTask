@@ -1,97 +1,97 @@
 {
   "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-  "name" : "timeline",
   "children" : [ {
-    "name" : "Mac-1725015686201.local",
+    "name" : "Mac-1740414247587.local",
     "children" : [ {
-      "name" : "3386@Mac-1725015686201.local.main(1)",
+      "name" : "2100@Mac-1740414247587.local.main(1)",
       "children" : [ {
-        "name" : "User should be able to login",
-        "uid" : "5a31eed7537de41e",
-        "parentUid" : "70a8d3ae489d35c4f73b95cf4c957034",
-        "status" : "passed",
-        "time" : {
-          "start" : 1725016765627,
-          "stop" : 1725016771770,
-          "duration" : 6143
-        },
-        "flaky" : false,
-        "parameters" : [ ]
-      }, {
         "name" : "Admin should be able to delete a user, and number of users records should be decreased by one",
-        "uid" : "2fbd43c38c7e994e",
-        "parentUid" : "70a8d3ae489d35c4f73b95cf4c957034",
+        "uid" : "e831073b603778a6",
+        "parentUid" : "1fc23d2659e1a3e31e822a973d5a8bf7",
         "status" : "passed",
         "time" : {
-          "start" : 1725016816765,
-          "stop" : 1725016821355,
-          "duration" : 4590
+          "start" : 1740414495802,
+          "stop" : 1740414499490,
+          "duration" : 3688
         },
         "flaky" : false,
         "parameters" : [ ]
       }, {
-        "name" : "Admin should be able to navigate to User Management Page",
-        "uid" : "97def169db9e534d",
-        "parentUid" : "70a8d3ae489d35c4f73b95cf4c957034",
+        "name" : "User should be able to login",
+        "uid" : "922b288eab65ad54",
+        "parentUid" : "1fc23d2659e1a3e31e822a973d5a8bf7",
         "status" : "passed",
         "time" : {
-          "start" : 1725016794563,
-          "stop" : 1725016796930,
-          "duration" : 2367
-        },
-        "flaky" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "Admin should be able to add a new candidate using api, and number of candidates records should be increased by one",
-        "uid" : "196268d11b57760b",
-        "parentUid" : "70a8d3ae489d35c4f73b95cf4c957034",
-        "status" : "passed",
-        "time" : {
-          "start" : 1725016779563,
-          "stop" : 1725016786276,
-          "duration" : 6713
+          "start" : 1740414461214,
+          "stop" : 1740414465176,
+          "duration" : 3962
         },
         "flaky" : false,
         "parameters" : [ ]
       }, {
         "name" : "Admin should be able to delete the new candidate using api, and number of candidates records should be decreased by one",
-        "uid" : "e95e29f89eeec9c2",
-        "parentUid" : "70a8d3ae489d35c4f73b95cf4c957034",
+        "uid" : "d1ff0f85e2571ad4",
+        "parentUid" : "1fc23d2659e1a3e31e822a973d5a8bf7",
         "status" : "passed",
         "time" : {
-          "start" : 1725016791288,
-          "stop" : 1725016794559,
-          "duration" : 3271
-        },
-        "flaky" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "Admin should be able to add a new user, and number of users records should be increased by one",
-        "uid" : "8a5ddc8ead286e2d",
-        "parentUid" : "70a8d3ae489d35c4f73b95cf4c957034",
-        "status" : "passed",
-        "time" : {
-          "start" : 1725016801945,
-          "stop" : 1725016811754,
-          "duration" : 9809
+          "start" : 1740414475469,
+          "stop" : 1740414477217,
+          "duration" : 1748
         },
         "flaky" : false,
         "parameters" : [ ]
       }, {
         "name" : "Admin should be able to navigate to Recruitment Page",
-        "uid" : "39d2cb00d091e85",
-        "parentUid" : "70a8d3ae489d35c4f73b95cf4c957034",
+        "uid" : "39561222fbbc092b",
+        "parentUid" : "1fc23d2659e1a3e31e822a973d5a8bf7",
         "status" : "passed",
         "time" : {
-          "start" : 1725016776810,
-          "stop" : 1725016779556,
-          "duration" : 2746
+          "start" : 1740414465193,
+          "stop" : 1740414466368,
+          "duration" : 1175
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Admin should be able to add a new candidate using api, and number of candidates records should be increased by one",
+        "uid" : "8b083f6082da6bc5",
+        "parentUid" : "1fc23d2659e1a3e31e822a973d5a8bf7",
+        "status" : "passed",
+        "time" : {
+          "start" : 1740414471392,
+          "stop" : 1740414475465,
+          "duration" : 4073
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Admin should be able to add a new user, and number of users records should be increased by one",
+        "uid" : "76969d0eb650b919",
+        "parentUid" : "1fc23d2659e1a3e31e822a973d5a8bf7",
+        "status" : "passed",
+        "time" : {
+          "start" : 1740414483624,
+          "stop" : 1740414490789,
+          "duration" : 7165
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Admin should be able to navigate to User Management Page",
+        "uid" : "6b7b94c72823883d",
+        "parentUid" : "1fc23d2659e1a3e31e822a973d5a8bf7",
+        "status" : "passed",
+        "time" : {
+          "start" : 1740414482226,
+          "stop" : 1740414483621,
+          "duration" : 1395
         },
         "flaky" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "70a8d3ae489d35c4f73b95cf4c957034"
+      "uid" : "1fc23d2659e1a3e31e822a973d5a8bf7"
     } ],
-    "uid" : "37755d9a42ea9bce239cbfcf4ba04fa8"
-  } ]
+    "uid" : "e5e25b1e51f0c456ce70ed9c4ff0bf2f"
+  } ],
+  "name" : "timeline"
 }

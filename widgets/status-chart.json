@@ -1,70 +1,70 @@
 [ {
-  "uid" : "5a31eed7537de41e",
-  "name" : "User should be able to login",
-  "time" : {
-    "start" : 1725016765627,
-    "stop" : 1725016771770,
-    "duration" : 6143
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "2fbd43c38c7e994e",
+  "uid" : "e831073b603778a6",
   "name" : "Admin should be able to delete a user, and number of users records should be decreased by one",
   "time" : {
-    "start" : 1725016816765,
-    "stop" : 1725016821355,
-    "duration" : 4590
+    "start" : 1740414495802,
+    "stop" : 1740414499490,
+    "duration" : 3688
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "97def169db9e534d",
-  "name" : "Admin should be able to navigate to User Management Page",
+  "uid" : "922b288eab65ad54",
+  "name" : "User should be able to login",
   "time" : {
-    "start" : 1725016794563,
-    "stop" : 1725016796930,
-    "duration" : 2367
+    "start" : 1740414461214,
+    "stop" : 1740414465176,
+    "duration" : 3962
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "196268d11b57760b",
-  "name" : "Admin should be able to add a new candidate using api, and number of candidates records should be increased by one",
-  "time" : {
-    "start" : 1725016779563,
-    "stop" : 1725016786276,
-    "duration" : 6713
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "e95e29f89eeec9c2",
+  "uid" : "d1ff0f85e2571ad4",
   "name" : "Admin should be able to delete the new candidate using api, and number of candidates records should be decreased by one",
   "time" : {
-    "start" : 1725016791288,
-    "stop" : 1725016794559,
-    "duration" : 3271
+    "start" : 1740414475469,
+    "stop" : 1740414477217,
+    "duration" : 1748
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "8a5ddc8ead286e2d",
-  "name" : "Admin should be able to add a new user, and number of users records should be increased by one",
-  "time" : {
-    "start" : 1725016801945,
-    "stop" : 1725016811754,
-    "duration" : 9809
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "39d2cb00d091e85",
+  "uid" : "39561222fbbc092b",
   "name" : "Admin should be able to navigate to Recruitment Page",
   "time" : {
-    "start" : 1725016776810,
-    "stop" : 1725016779556,
-    "duration" : 2746
+    "start" : 1740414465193,
+    "stop" : 1740414466368,
+    "duration" : 1175
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8b083f6082da6bc5",
+  "name" : "Admin should be able to add a new candidate using api, and number of candidates records should be increased by one",
+  "time" : {
+    "start" : 1740414471392,
+    "stop" : 1740414475465,
+    "duration" : 4073
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "76969d0eb650b919",
+  "name" : "Admin should be able to add a new user, and number of users records should be increased by one",
+  "time" : {
+    "start" : 1740414483624,
+    "stop" : 1740414490789,
+    "duration" : 7165
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6b7b94c72823883d",
+  "name" : "Admin should be able to navigate to User Management Page",
+  "time" : {
+    "start" : 1740414482226,
+    "stop" : 1740414483621,
+    "duration" : 1395
   },
   "status" : "passed",
   "severity" : "normal"
