@@ -8,38 +8,26 @@ import io.qameta.allure.Step;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 
 public class UserManagementPage extends BasePage<UserManagementPage> {
 
-
-    //Constructor
+    // Constructor
     public UserManagementPage(WebDriver driver) {
         super(driver);
     }
-    //
 
-    //Elements
-    @FindBy(xpath = "//h6[contains(@class, 'oxd-topbar-header-breadcrumb-level') and text()='User Management']")
-    private WebElement userManagementPageHeader;
-    @FindBy(xpath = "//div[@class='orangehrm-horizontal-padding orangehrm-vertical-padding']/span[@class='oxd-text oxd-text--span']")
-    private WebElement usersCount;
-    @FindBy(xpath = "//button[contains(@class, 'oxd-button') and contains(., 'Add')]")
-    private WebElement addButton;
-    @FindBy(xpath = "//label[text()='Username']/following::input[1]")
-    private WebElement userNameInput;
-    @FindBy(xpath = "//label[contains(text(),'User Role')]/following::div[@class='oxd-select-text-input']")
-    private WebElement userRoleDropdown;
-    @FindBy(xpath = "//label[contains(text(),'Employee Name')]/following::input[@placeholder='Type for hints...']")
-    private WebElement employeeNameInput;
-    @FindBy(xpath = "//label[contains(text(),'Status')]/following::div[contains(@class,'oxd-select-text-input')]")
-    private WebElement statusDropdown;
-    @FindBy(xpath = "//button[@type='submit']")
-    private WebElement searchButton;
-    //
+    // Locators
+    private By userManagementPageHeader = By.xpath("//h6[contains(@class, 'oxd-topbar-header-breadcrumb-level') and text()='User Management']");
+    private By usersCount = By.xpath("//div[@class='orangehrm-horizontal-padding orangehrm-vertical-padding']/span[@class='oxd-text oxd-text--span']");
+    private By addButton = By.xpath("//button[contains(@class, 'oxd-button') and contains(., 'Add')]");
+    private By userNameInput = By.xpath("//label[text()='Username']/following::input[1]");
+    private By userRoleDropdown = By.xpath("//label[contains(text(),'User Role')]/following::div[@class='oxd-select-text-input']");
+    private By employeeNameInput = By.xpath("//label[contains(text(),'Employee Name')]/following::input[@placeholder='Type for hints...']");
+    private By statusDropdown = By.xpath("//label[contains(text(),'Status')]/following::div[contains(@class,'oxd-select-text-input')]");
+    private By searchButton = By.xpath("//button[@type='submit']");
 
-    //Methods
+    // Methods
     @Step("Load the User Management Page")
     @Override
     public UserManagementPage load() {
@@ -49,39 +37,41 @@ public class UserManagementPage extends BasePage<UserManagementPage> {
 
     @Step("Verify that User Management Page Header is Displayed")
     public boolean isUserManagementPageHeaderDisplayed() {
-        return userManagementPageHeader.isDisplayed();
+        return driver.findElement(userManagementPageHeader).isDisplayed();
     }
 
     @Step("Get Current users count")
     public int getUserCount() {
-        explicitWait().until(ExpectedConditions.visibilityOf(usersCount));
-        return Integer.parseInt(usersCount.getText().replaceAll("[^0-9]", ""));
+        explicitWait().until(ExpectedConditions.visibilityOfElementLocated(usersCount));
+        return Integer.parseInt(driver.findElement(usersCount).getText().replaceAll("[^0-9]", ""));
     }
 
     @Step("Click on Add Button")
     public AddNewUserPage clickOnAddButton() {
-        addButton.click();
+        driver.findElement(addButton).click();
         return new AddNewUserPage(driver);
     }
 
     @Step("Fill User Data to search")
     public UserManagementPage fillUserDataToSearch(User user) {
-        userNameInput.sendKeys(user.getUserName());
-        selectFromTheDropDown(userRoleDropdown, user.getUserRole());
-        employeeNameInput.sendKeys(user.getEmployeeName());
+        driver.findElement(userNameInput).sendKeys(user.getUserName());
+        selectFromTheDropDown(driver.findElement(userRoleDropdown), user.getUserRole());
+        driver.findElement(employeeNameInput).sendKeys(user.getEmployeeName());
         selectSpecificOptionFromTheDropDown(user.getEmployeeName());
-        selectFromTheDropDown(statusDropdown, user.getStatus());
-        searchButton.click();
+        selectFromTheDropDown(driver.findElement(statusDropdown), user.getStatus());
+        driver.findElement(searchButton).click();
         return this;
     }
 
     @Step("Delete the new User")
     public UserManagementPage deleteNewUser(User user) {
-        WebElement deleteButton = explicitWait().until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//div[@class='oxd-table-row oxd-table-row--with-border' and .//div[text()='" + user.getUserName() + "']]//button[contains(@class, 'oxd-icon-button') and .//i[contains(@class, 'bi-trash')]]")));
+        By deleteButtonLocator = By.xpath("//div[@class='oxd-table-row oxd-table-row--with-border' and .//div[text()='" + user.getUserName() + "']]//button[contains(@class, 'oxd-icon-button') and .//i[contains(@class, 'bi-trash')]]");
+        By confirmDeleteButtonLocator = By.xpath("//div[contains(@class, 'orangehrm-modal-footer')]//button[contains(@class, 'oxd-button--label-danger')]");
+
+        WebElement deleteButton = explicitWait().until(ExpectedConditions.visibilityOfElementLocated(deleteButtonLocator));
         deleteButton.click();
-        WebElement confirmDeleteButton = explicitWait().until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//div[contains(@class, 'orangehrm-modal-footer')]//button[contains(@class, 'oxd-button--label-danger')]")));
+        WebElement confirmDeleteButton = explicitWait().until(ExpectedConditions.visibilityOfElementLocated(confirmDeleteButtonLocator));
         confirmDeleteButton.click();
         return this;
     }
-
 }
