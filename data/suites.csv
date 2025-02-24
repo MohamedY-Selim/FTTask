@@ -1,8 +1,0 @@
-"Status","Name","Duration in ms","Description"
-"passed","src/test/resources/features/usermanagement.feature:16","3636",""
-"failed","src/test/resources/features/recruitment.feature:15","1973",""
-"passed","src/test/resources/features/recruitment.feature:9","4144",""
-"passed","src/test/resources/features/recruitment.feature:4","1539",""
-"passed","src/test/resources/features/usermanagement.feature:4","1342",""
-"passed","src/test/resources/features/login.feature:2","4089",""
-"passed","src/test/resources/features/usermanagement.feature:9","7400",""
