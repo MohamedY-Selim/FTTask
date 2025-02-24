@@ -8,7 +8,6 @@ import com.orangehrmlive.demo.opensource.utils.UserUtils;
 import io.qameta.allure.Step;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 
 public class AddNewUserPage extends BasePage<AddNewUserPage> {
@@ -46,4 +45,23 @@ public class AddNewUserPage extends BasePage<AddNewUserPage> {
     public AddNewUserPage fillNewUserData() {
         user = UserUtils.generateRandomUser();
         selectFromTheDropDown(userRoleDropDown, user.getUserRole());
-        selectFromTheDropDown(statusDropDown,
+        selectFromTheDropDown(statusDropDown, user.getStatus());
+        driver.findElement(employeeNameInput).sendKeys(user.getEmployeeName());
+
+        explicitWait().until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//div[@role='listbox']//span[contains(text(), '" + user.getEmployeeName() + "')][1]")));
+        selectFromTheDropDownWithKeys();
+
+        String employeeName = driver.findElement(employeeNameInput).getAttribute("value");
+        user.setEmployeeName(employeeName);
+        driver.findElement(userNameInput).sendKeys(user.getUserName());
+        driver.findElement(passwordInput).sendKeys(user.getPassword());
+        driver.findElement(confirmPasswordInput).sendKeys(user.getPassword());
+        return this;
+    }
+
+    @Step("Click on Save Button")
+    public User clickOnSaveButton() {
+        driver.findElement(saveButton).click();
+        return user;
+    }
+}
