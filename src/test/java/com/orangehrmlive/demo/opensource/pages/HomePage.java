@@ -5,8 +5,8 @@ import com.orangehrmlive.demo.opensource.factory.EndPoint;
 import com.orangehrmlive.demo.opensource.utils.ConfigUtils;
 import io.qameta.allure.Step;
 import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.NoSuchElementException;
+import org.openqa.selenium.WebDriver;
 
 public class HomePage extends BasePage<HomePage> {
 
@@ -18,6 +18,7 @@ public class HomePage extends BasePage<HomePage> {
     // Locators
     private By homePageHeader = By.xpath("//h6[text()='Dashboard']");
     private By userDropdown = By.className("oxd-userdropdown-tab");
+    private By loginPageHeader = By.xpath("//h5[text()='Login']");
     private By adminTab = By.xpath("//a[span[contains(@class, 'oxd-main-menu-item--name') and text()='Admin']]");
     private By recruitmentTab = By.xpath("//a[span[contains(@class, 'oxd-main-menu-item--name') and text()='Recruitment']]");
 
