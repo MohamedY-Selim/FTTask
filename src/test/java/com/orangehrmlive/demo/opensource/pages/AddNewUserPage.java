@@ -28,7 +28,6 @@ public class AddNewUserPage extends BasePage<AddNewUserPage> {
     private By passwordInput = By.xpath("//label[text()='Password']/following::input[contains(@class, 'oxd-input')][1]");
     private By confirmPasswordInput = By.xpath("//label[text()='Confirm Password']/following::input[contains(@class, 'oxd-input')][1]");
     private By saveButton = By.xpath("//button[@type='submit']");
-    private By listOfOptions = By.xpath("//div[@role='listbox']");
 
     // Methods
     @Step("Load the User Management Page")
@@ -46,24 +45,5 @@ public class AddNewUserPage extends BasePage<AddNewUserPage> {
     @Step("Fill New User Data")
     public AddNewUserPage fillNewUserData() {
         user = UserUtils.generateRandomUser();
-        selectFromTheDropDown(driver.findElement(userRoleDropDown), user.getUserRole());
-        selectFromTheDropDown(driver.findElement(statusDropDown), user.getStatus());
-        driver.findElement(employeeNameInput).sendKeys(user.getEmployeeName());
-
-        explicitWait().until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//div[@role='listbox']//span[contains(text(), '" + user.getEmployeeName() + "')][1]")));
-        selectFromTheDropDownWithKeys();
-
-        String employeeName = driver.findElement(employeeNameInput).getAttribute("value");
-        user.setEmployeeName(employeeName);
-        driver.findElement(userNameInput).sendKeys(user.getUserName());
-        driver.findElement(passwordInput).sendKeys(user.getPassword());
-        driver.findElement(confirmPasswordInput).sendKeys(user.getPassword());
-        return this;
-    }
-
-    @Step("Click on Save Button")
-    public User clickOnSaveButton() {
-        driver.findElement(saveButton).click();
-        return user;
-    }
-}
+        selectFromTheDropDown(userRoleDropDown, user.getUserRole());
+        selectFromTheDropDown(statusDropDown,
