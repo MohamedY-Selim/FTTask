@@ -1,0 +1,97 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "Mac-1740415988974.local",
+    "children" : [ {
+      "name" : "2103@Mac-1740415988974.local.main(1)",
+      "children" : [ {
+        "name" : "Admin should be able to add a new user, and number of users records should be increased by one",
+        "uid" : "fb4159abaa7f03bf",
+        "parentUid" : "b5600a98b250495d36608336bed241dc",
+        "status" : "failed",
+        "time" : {
+          "start" : 1740416352375,
+          "stop" : 1740416359469,
+          "duration" : 7094
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Admin should be able to navigate to Recruitment Page",
+        "uid" : "d0d8c2daf89d4ea2",
+        "parentUid" : "b5600a98b250495d36608336bed241dc",
+        "status" : "passed",
+        "time" : {
+          "start" : 1740416338186,
+          "stop" : 1740416339926,
+          "duration" : 1740
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Admin should be able to add a new candidate using api, and number of candidates records should be increased by one",
+        "uid" : "7026ffdc1995af6d",
+        "parentUid" : "b5600a98b250495d36608336bed241dc",
+        "status" : "passed",
+        "time" : {
+          "start" : 1740416339935,
+          "stop" : 1740416344396,
+          "duration" : 4461
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Admin should be able to delete the new candidate using api, and number of candidates records should be decreased by one",
+        "uid" : "db427079774d4289",
+        "parentUid" : "b5600a98b250495d36608336bed241dc",
+        "status" : "passed",
+        "time" : {
+          "start" : 1740416349408,
+          "stop" : 1740416351169,
+          "duration" : 1761
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Admin should be able to navigate to User Management Page",
+        "uid" : "3c3abfb0189677ec",
+        "parentUid" : "b5600a98b250495d36608336bed241dc",
+        "status" : "passed",
+        "time" : {
+          "start" : 1740416351174,
+          "stop" : 1740416352370,
+          "duration" : 1196
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "User should be able to login",
+        "uid" : "586fab79cc176d6e",
+        "parentUid" : "b5600a98b250495d36608336bed241dc",
+        "status" : "passed",
+        "time" : {
+          "start" : 1740416327563,
+          "stop" : 1740416333152,
+          "duration" : 5589
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Admin should be able to delete a user, and number of users records should be decreased by one",
+        "uid" : "c3ec6b9fa3a6368b",
+        "parentUid" : "b5600a98b250495d36608336bed241dc",
+        "status" : "passed",
+        "time" : {
+          "start" : 1740416364484,
+          "stop" : 1740416368004,
+          "duration" : 3520
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "b5600a98b250495d36608336bed241dc"
+    } ],
+    "uid" : "3a4e133d7f88245330a89803ddf8aa23"
+  } ]
+}
