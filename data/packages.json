@@ -6,13 +6,13 @@
       "name" : "login_feature.Login Feature",
       "children" : [ {
         "name" : "User should be able to login",
-        "uid" : "922b288eab65ad54",
+        "uid" : "9709fe7ebaa58fab",
         "parentUid" : "1a1651eac23963578f0cb46a1eeb80b0",
         "status" : "passed",
         "time" : {
-          "start" : 1740414461214,
-          "stop" : 1740414465176,
-          "duration" : 3962
+          "start" : 1740414519604,
+          "stop" : 1740414524517,
+          "duration" : 4913
         },
         "flaky" : false,
         "parameters" : [ ]
@@ -22,37 +22,37 @@
       "name" : "recruitment_feature.Recruitment Feature",
       "children" : [ {
         "name" : "Admin should be able to navigate to Recruitment Page",
-        "uid" : "39561222fbbc092b",
+        "uid" : "f714cab1730943b0",
         "parentUid" : "8c511fc6001ca48dd6b865130f07c610",
         "status" : "passed",
         "time" : {
-          "start" : 1740414465193,
-          "stop" : 1740414466368,
-          "duration" : 1175
+          "start" : 1740414524534,
+          "stop" : 1740414526907,
+          "duration" : 2373
         },
         "flaky" : false,
         "parameters" : [ ]
       }, {
         "name" : "Admin should be able to add a new candidate using api, and number of candidates records should be increased by one",
-        "uid" : "8b083f6082da6bc5",
+        "uid" : "9a9e12c6d84be557",
         "parentUid" : "8c511fc6001ca48dd6b865130f07c610",
         "status" : "passed",
         "time" : {
-          "start" : 1740414471392,
-          "stop" : 1740414475465,
-          "duration" : 4073
+          "start" : 1740414531917,
+          "stop" : 1740414537475,
+          "duration" : 5558
         },
         "flaky" : false,
         "parameters" : [ ]
       }, {
         "name" : "Admin should be able to delete the new candidate using api, and number of candidates records should be decreased by one",
-        "uid" : "d1ff0f85e2571ad4",
+        "uid" : "f39d5efa34992a92",
         "parentUid" : "8c511fc6001ca48dd6b865130f07c610",
         "status" : "passed",
         "time" : {
-          "start" : 1740414475469,
-          "stop" : 1740414477217,
-          "duration" : 1748
+          "start" : 1740414542483,
+          "stop" : 1740414544570,
+          "duration" : 2087
         },
         "flaky" : false,
         "parameters" : [ ]
@@ -62,37 +62,37 @@
       "name" : "usermanagement_feature.User Management Feature",
       "children" : [ {
         "name" : "Admin should be able to navigate to User Management Page",
-        "uid" : "6b7b94c72823883d",
+        "uid" : "eedbe2dda070a982",
         "parentUid" : "29c310b0ab41629801b2ff2522bd9869",
         "status" : "passed",
         "time" : {
-          "start" : 1740414482226,
-          "stop" : 1740414483621,
-          "duration" : 1395
+          "start" : 1740414544576,
+          "stop" : 1740414545893,
+          "duration" : 1317
         },
         "flaky" : false,
         "parameters" : [ ]
       }, {
         "name" : "Admin should be able to add a new user, and number of users records should be increased by one",
-        "uid" : "76969d0eb650b919",
+        "uid" : "8ce0e97aa58a44fd",
         "parentUid" : "29c310b0ab41629801b2ff2522bd9869",
         "status" : "passed",
         "time" : {
-          "start" : 1740414483624,
-          "stop" : 1740414490789,
-          "duration" : 7165
+          "start" : 1740414545899,
+          "stop" : 1740414553464,
+          "duration" : 7565
         },
         "flaky" : false,
         "parameters" : [ ]
       }, {
         "name" : "Admin should be able to delete a user, and number of users records should be decreased by one",
-        "uid" : "e831073b603778a6",
+        "uid" : "6e14a2f8759a86ce",
         "parentUid" : "29c310b0ab41629801b2ff2522bd9869",
         "status" : "passed",
         "time" : {
-          "start" : 1740414495802,
-          "stop" : 1740414499490,
-          "duration" : 3688
+          "start" : 1740414558471,
+          "stop" : 1740414561772,
+          "duration" : 3301
         },
         "flaky" : false,
         "parameters" : [ ]
