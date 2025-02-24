@@ -1,8 +1,8 @@
 {
   "total" : 3,
   "items" : [ {
-    "uid" : "342b3ad350f6fed5a04993204deb9b10",
-    "name" : "User Management Feature",
+    "uid" : "f8ed4cb6c86b6356bf4110c756100062",
+    "name" : "Recruitment Feature",
     "statistic" : {
       "failed" : 1,
       "broken" : 0,
@@ -12,8 +12,8 @@
       "total" : 3
     }
   }, {
-    "uid" : "f8ed4cb6c86b6356bf4110c756100062",
-    "name" : "Recruitment Feature",
+    "uid" : "342b3ad350f6fed5a04993204deb9b10",
+    "name" : "User Management Feature",
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
