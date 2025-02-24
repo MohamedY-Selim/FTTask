@@ -1,21 +1,21 @@
 {
-  "uid" : "c9e3b94c55be664c",
+  "uid" : "290501fdf98b860d",
   "name" : "Admin should be able to add a new candidate using api, and number of candidates records should be increased by one",
   "fullName" : "src/test/resources/features/recruitment.feature:9",
   "historyId" : "3d6c002b5468da53792d01fdc8b36e52",
   "time" : {
-    "start" : 1740414585789,
-    "stop" : 1740414591446,
-    "duration" : 5657
+    "start" : 1740414663694,
+    "stop" : 1740414669135,
+    "duration" : 5441
   },
   "status" : "passed",
   "flaky" : false,
   "beforeStages" : [ {
     "name" : "com.orangehrmlive.demo.opensource.hooks.Hooks.login()",
     "time" : {
-      "start" : 1740414585789,
-      "stop" : 1740414585794,
-      "duration" : 5
+      "start" : 1740414663694,
+      "stop" : 1740414663701,
+      "duration" : 7
     },
     "status" : "passed",
     "steps" : [ ],
@@ -31,17 +31,17 @@
     "steps" : [ {
       "name" : "Given Admin is at the Recruitment page",
       "time" : {
-        "start" : 1740414585794,
-        "stop" : 1740414586761,
-        "duration" : 967
+        "start" : 1740414663702,
+        "stop" : 1740414664675,
+        "duration" : 973
       },
       "status" : "passed",
       "steps" : [ {
         "name" : "Load the Recruitment Page",
         "time" : {
-          "start" : 1740414585794,
-          "stop" : 1740414586051,
-          "duration" : 257
+          "start" : 1740414663703,
+          "stop" : 1740414663915,
+          "duration" : 212
         },
         "status" : "passed",
         "steps" : [ ],
@@ -54,9 +54,9 @@
       }, {
         "name" : "Get Current candidates count",
         "time" : {
-          "start" : 1740414586051,
-          "stop" : 1740414586761,
-          "duration" : 710
+          "start" : 1740414663916,
+          "stop" : 1740414664675,
+          "duration" : 759
         },
         "status" : "passed",
         "steps" : [ ],
@@ -76,9 +76,9 @@
     }, {
       "name" : "When Admin add a new candidate using api",
       "time" : {
-        "start" : 1740414586761,
-        "stop" : 1740414590203,
-        "duration" : 3442
+        "start" : 1740414664675,
+        "stop" : 1740414667924,
+        "duration" : 3249
       },
       "status" : "passed",
       "steps" : [ ],
@@ -91,17 +91,17 @@
     }, {
       "name" : "Then Number of candidates records should be increased by one",
       "time" : {
-        "start" : 1740414590203,
-        "stop" : 1740414591245,
-        "duration" : 1042
+        "start" : 1740414667924,
+        "stop" : 1740414669014,
+        "duration" : 1090
       },
       "status" : "passed",
       "steps" : [ {
         "name" : "Load the Recruitment Page",
         "time" : {
-          "start" : 1740414590203,
-          "stop" : 1740414590484,
-          "duration" : 281
+          "start" : 1740414667925,
+          "stop" : 1740414668164,
+          "duration" : 239
         },
         "status" : "passed",
         "steps" : [ ],
@@ -114,9 +114,9 @@
       }, {
         "name" : "Get Current candidates count",
         "time" : {
-          "start" : 1740414590484,
-          "stop" : 1740414591244,
-          "duration" : 760
+          "start" : 1740414668164,
+          "stop" : 1740414669014,
+          "duration" : 850
         },
         "status" : "passed",
         "steps" : [ ],
@@ -144,30 +144,30 @@
   "afterStages" : [ {
     "name" : "com.orangehrmlive.demo.opensource.hooks.Hooks.afterScenario(io.cucumber.java.Scenario)",
     "time" : {
-      "start" : 1740414591245,
-      "stop" : 1740414591445,
-      "duration" : 200
+      "start" : 1740414669014,
+      "stop" : 1740414669134,
+      "duration" : 120
     },
     "status" : "passed",
     "steps" : [ {
       "name" : "Log scenario result",
       "time" : {
-        "start" : 1740414591245,
-        "stop" : 1740414591445,
-        "duration" : 200
+        "start" : 1740414669015,
+        "stop" : 1740414669134,
+        "duration" : 119
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ {
-        "uid" : "e6e92b561ccf5995",
+        "uid" : "41c536a6fc13831",
         "name" : "screenshot",
-        "source" : "e6e92b561ccf5995.png",
+        "source" : "41c536a6fc13831.png",
         "type" : "image/png",
-        "size" : 124288
+        "size" : 124646
       } ],
       "parameters" : [ {
         "name" : "scenario",
-        "value" : "io.cucumber.java.Scenario@37ea5612"
+        "value" : "io.cucumber.java.Scenario@72c50c9f"
       } ],
       "attachmentsCount" : 1,
       "shouldDisplayMessage" : false,
@@ -186,10 +186,10 @@
     "value" : "requiresLogin"
   }, {
     "name" : "host",
-    "value" : "Mac-1740414410435.local"
+    "value" : "Mac-1740414495556.local"
   }, {
     "name" : "thread",
-    "value" : "1606@Mac-1740414410435.local.main(1)"
+    "value" : "1640@Mac-1740414495556.local.main(1)"
   }, {
     "name" : "feature",
     "value" : "Recruitment Feature"
@@ -228,6 +228,6 @@
     "categories" : [ ],
     "tags" : [ "requiresLogin" ]
   },
-  "source" : "c9e3b94c55be664c.json",
+  "source" : "290501fdf98b860d.json",
   "parameterValues" : [ ]
 }

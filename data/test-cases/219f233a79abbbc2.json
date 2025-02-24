@@ -1,21 +1,21 @@
 {
-  "uid" : "ea4d211164d56792",
-  "name" : "Admin should be able to navigate to Recruitment Page",
-  "fullName" : "src/test/resources/features/recruitment.feature:4",
-  "historyId" : "519af8428ab84e1d4b7a403542856b7",
+  "uid" : "219f233a79abbbc2",
+  "name" : "Admin should be able to navigate to User Management Page",
+  "fullName" : "src/test/resources/features/usermanagement.feature:4",
+  "historyId" : "85a8163156e926ea32522c0c9b241379",
   "time" : {
-    "start" : 1740414579505,
-    "stop" : 1740414580783,
-    "duration" : 1278
+    "start" : 1740414676610,
+    "stop" : 1740414678025,
+    "duration" : 1415
   },
   "status" : "passed",
   "flaky" : false,
   "beforeStages" : [ {
     "name" : "com.orangehrmlive.demo.opensource.hooks.Hooks.login()",
     "time" : {
-      "start" : 1740414579506,
-      "stop" : 1740414579521,
-      "duration" : 15
+      "start" : 1740414676610,
+      "stop" : 1740414676613,
+      "duration" : 3
     },
     "status" : "passed",
     "steps" : [ ],
@@ -31,17 +31,17 @@
     "steps" : [ {
       "name" : "Given Admin is at the home page",
       "time" : {
-        "start" : 1740414579521,
-        "stop" : 1740414579934,
-        "duration" : 413
+        "start" : 1740414676614,
+        "stop" : 1740414676991,
+        "duration" : 377
       },
       "status" : "passed",
       "steps" : [ {
         "name" : "Load the Home Page",
         "time" : {
-          "start" : 1740414579535,
-          "stop" : 1740414579716,
-          "duration" : 181
+          "start" : 1740414676614,
+          "stop" : 1740414676822,
+          "duration" : 208
         },
         "status" : "passed",
         "steps" : [ ],
@@ -54,9 +54,9 @@
       }, {
         "name" : "Verify that Home Page Header is Displayed",
         "time" : {
-          "start" : 1740414579716,
-          "stop" : 1740414579934,
-          "duration" : 218
+          "start" : 1740414676822,
+          "stop" : 1740414676991,
+          "duration" : 169
         },
         "status" : "passed",
         "steps" : [ ],
@@ -74,19 +74,19 @@
       "stepsCount" : 2,
       "hasContent" : true
     }, {
-      "name" : "When Admin click on Recruitment tab on the left side menu",
+      "name" : "When Admin click on Admin tab on the left side menu",
       "time" : {
-        "start" : 1740414579934,
-        "stop" : 1740414580465,
-        "duration" : 531
+        "start" : 1740414676991,
+        "stop" : 1740414677639,
+        "duration" : 648
       },
       "status" : "passed",
       "steps" : [ {
-        "name" : "Click on Recruitment tab on the left side menu",
+        "name" : "Click on Admin tab on the left side menu",
         "time" : {
-          "start" : 1740414579936,
-          "stop" : 1740414580464,
-          "duration" : 528
+          "start" : 1740414676991,
+          "stop" : 1740414677639,
+          "duration" : 648
         },
         "status" : "passed",
         "steps" : [ ],
@@ -104,19 +104,19 @@
       "stepsCount" : 1,
       "hasContent" : true
     }, {
-      "name" : "Then Recruitment Page should be displayed",
+      "name" : "Then User Management Page should be displayed",
       "time" : {
-        "start" : 1740414580465,
-        "stop" : 1740414580617,
-        "duration" : 152
+        "start" : 1740414677639,
+        "stop" : 1740414677851,
+        "duration" : 212
       },
       "status" : "passed",
       "steps" : [ {
-        "name" : "Verify that Recruitment Header is Displayed",
+        "name" : "Verify that User Management Page Header is Displayed",
         "time" : {
-          "start" : 1740414580465,
-          "stop" : 1740414580611,
-          "duration" : 146
+          "start" : 1740414677640,
+          "stop" : 1740414677847,
+          "duration" : 207
         },
         "status" : "passed",
         "steps" : [ ],
@@ -144,30 +144,30 @@
   "afterStages" : [ {
     "name" : "com.orangehrmlive.demo.opensource.hooks.Hooks.afterScenario(io.cucumber.java.Scenario)",
     "time" : {
-      "start" : 1740414580617,
-      "stop" : 1740414580783,
-      "duration" : 166
+      "start" : 1740414677851,
+      "stop" : 1740414678024,
+      "duration" : 173
     },
     "status" : "passed",
     "steps" : [ {
       "name" : "Log scenario result",
       "time" : {
-        "start" : 1740414580617,
-        "stop" : 1740414580783,
-        "duration" : 166
+        "start" : 1740414677851,
+        "stop" : 1740414678024,
+        "duration" : 173
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ {
-        "uid" : "aac4cae000817e76",
+        "uid" : "9f5e923f0baf1d2c",
         "name" : "screenshot",
-        "source" : "aac4cae000817e76.png",
+        "source" : "9f5e923f0baf1d2c.png",
         "type" : "image/png",
-        "size" : 101799
+        "size" : 97404
       } ],
       "parameters" : [ {
         "name" : "scenario",
-        "value" : "io.cucumber.java.Scenario@24955144"
+        "value" : "io.cucumber.java.Scenario@4c082a7d"
       } ],
       "attachmentsCount" : 1,
       "shouldDisplayMessage" : false,
@@ -186,22 +186,22 @@
     "value" : "requiresLogin"
   }, {
     "name" : "host",
-    "value" : "Mac-1740414410435.local"
+    "value" : "Mac-1740414495556.local"
   }, {
     "name" : "thread",
-    "value" : "1606@Mac-1740414410435.local.main(1)"
+    "value" : "1640@Mac-1740414495556.local.main(1)"
   }, {
     "name" : "feature",
-    "value" : "Recruitment Feature"
+    "value" : "User Management Feature"
   }, {
     "name" : "story",
-    "value" : "Admin should be able to navigate to Recruitment Page"
+    "value" : "Admin should be able to navigate to User Management Page"
   }, {
     "name" : "suite",
-    "value" : "Recruitment Feature"
+    "value" : "User Management Feature"
   }, {
     "name" : "testClass",
-    "value" : "Admin should be able to navigate to Recruitment Page"
+    "value" : "Admin should be able to navigate to User Management Page"
   }, {
     "name" : "framework",
     "value" : "cucumber4jvm"
@@ -210,10 +210,10 @@
     "value" : "java"
   }, {
     "name" : "gherkin_uri",
-    "value" : "file:///Users/runner/work/FTTask/FTTask/src/test/resources/features/recruitment.feature"
+    "value" : "file:///Users/runner/work/FTTask/FTTask/src/test/resources/features/usermanagement.feature"
   }, {
     "name" : "package",
-    "value" : "src.test.resources.features.recruitment_feature.Recruitment Feature"
+    "value" : "src.test.resources.features.usermanagement_feature.User Management Feature"
   }, {
     "name" : "resultFormat",
     "value" : "allure2"
@@ -228,6 +228,6 @@
     "categories" : [ ],
     "tags" : [ "requiresLogin" ]
   },
-  "source" : "ea4d211164d56792.json",
+  "source" : "219f233a79abbbc2.json",
   "parameterValues" : [ ]
 }
