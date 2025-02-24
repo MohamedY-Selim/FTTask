@@ -6,13 +6,13 @@
       "name" : "login_feature.Login Feature",
       "children" : [ {
         "name" : "User should be able to login",
-        "uid" : "9709fe7ebaa58fab",
+        "uid" : "aad6baf9d08cce62",
         "parentUid" : "1a1651eac23963578f0cb46a1eeb80b0",
         "status" : "passed",
         "time" : {
-          "start" : 1740414519604,
-          "stop" : 1740414524517,
-          "duration" : 4913
+          "start" : 1740414575422,
+          "stop" : 1740414579487,
+          "duration" : 4065
         },
         "flaky" : false,
         "parameters" : [ ]
@@ -22,37 +22,37 @@
       "name" : "recruitment_feature.Recruitment Feature",
       "children" : [ {
         "name" : "Admin should be able to navigate to Recruitment Page",
-        "uid" : "f714cab1730943b0",
+        "uid" : "ea4d211164d56792",
         "parentUid" : "8c511fc6001ca48dd6b865130f07c610",
         "status" : "passed",
         "time" : {
-          "start" : 1740414524534,
-          "stop" : 1740414526907,
-          "duration" : 2373
+          "start" : 1740414579505,
+          "stop" : 1740414580783,
+          "duration" : 1278
         },
         "flaky" : false,
         "parameters" : [ ]
       }, {
         "name" : "Admin should be able to add a new candidate using api, and number of candidates records should be increased by one",
-        "uid" : "9a9e12c6d84be557",
+        "uid" : "c9e3b94c55be664c",
         "parentUid" : "8c511fc6001ca48dd6b865130f07c610",
         "status" : "passed",
         "time" : {
-          "start" : 1740414531917,
-          "stop" : 1740414537475,
-          "duration" : 5558
+          "start" : 1740414585789,
+          "stop" : 1740414591446,
+          "duration" : 5657
         },
         "flaky" : false,
         "parameters" : [ ]
       }, {
         "name" : "Admin should be able to delete the new candidate using api, and number of candidates records should be decreased by one",
-        "uid" : "f39d5efa34992a92",
+        "uid" : "8a059fec7c3c2e77",
         "parentUid" : "8c511fc6001ca48dd6b865130f07c610",
         "status" : "passed",
         "time" : {
-          "start" : 1740414542483,
-          "stop" : 1740414544570,
-          "duration" : 2087
+          "start" : 1740414596458,
+          "stop" : 1740414598909,
+          "duration" : 2451
         },
         "flaky" : false,
         "parameters" : [ ]
@@ -62,37 +62,37 @@
       "name" : "usermanagement_feature.User Management Feature",
       "children" : [ {
         "name" : "Admin should be able to navigate to User Management Page",
-        "uid" : "eedbe2dda070a982",
+        "uid" : "12dfef37772e4e22",
         "parentUid" : "29c310b0ab41629801b2ff2522bd9869",
         "status" : "passed",
         "time" : {
-          "start" : 1740414544576,
-          "stop" : 1740414545893,
-          "duration" : 1317
+          "start" : 1740414598924,
+          "stop" : 1740414600470,
+          "duration" : 1546
         },
         "flaky" : false,
         "parameters" : [ ]
       }, {
         "name" : "Admin should be able to add a new user, and number of users records should be increased by one",
-        "uid" : "8ce0e97aa58a44fd",
+        "uid" : "cf97808da851bf1",
         "parentUid" : "29c310b0ab41629801b2ff2522bd9869",
-        "status" : "passed",
+        "status" : "failed",
         "time" : {
-          "start" : 1740414545899,
-          "stop" : 1740414553464,
-          "duration" : 7565
+          "start" : 1740414600476,
+          "stop" : 1740414609546,
+          "duration" : 9070
         },
         "flaky" : false,
         "parameters" : [ ]
       }, {
         "name" : "Admin should be able to delete a user, and number of users records should be decreased by one",
-        "uid" : "6e14a2f8759a86ce",
+        "uid" : "f06349f81cab33ba",
         "parentUid" : "29c310b0ab41629801b2ff2522bd9869",
         "status" : "passed",
         "time" : {
-          "start" : 1740414558471,
-          "stop" : 1740414561772,
-          "duration" : 3301
+          "start" : 1740414614585,
+          "stop" : 1740414618498,
+          "duration" : 3913
         },
         "flaky" : false,
         "parameters" : [ ]

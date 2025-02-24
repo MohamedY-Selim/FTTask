@@ -1,12 +1,12 @@
 {
-  "uid" : "9709fe7ebaa58fab",
+  "uid" : "aad6baf9d08cce62",
   "name" : "User should be able to login",
   "fullName" : "src/test/resources/features/login.feature:2",
   "historyId" : "a30785d677cff3b305a99d403beb1b4",
   "time" : {
-    "start" : 1740414519604,
-    "stop" : 1740414524517,
-    "duration" : 4913
+    "start" : 1740414575422,
+    "stop" : 1740414579487,
+    "duration" : 4065
   },
   "status" : "passed",
   "flaky" : false,
@@ -16,177 +16,177 @@
     "steps" : [ {
       "name" : "Given User is at the login page",
       "time" : {
-        "start" : 1740414519608,
-        "stop" : 1740414521233,
-        "duration" : 1625
+        "start" : 1740414575424,
+        "stop" : 1740414576569,
+        "duration" : 1145
       },
       "status" : "passed",
       "steps" : [ {
         "name" : "Load the Login Page",
         "time" : {
-          "start" : 1740414519629,
-          "stop" : 1740414520675,
-          "duration" : 1046
+          "start" : 1740414575443,
+          "stop" : 1740414576226,
+          "duration" : 783
         },
         "status" : "passed",
         "steps" : [ ],
         "attachments" : [ ],
         "parameters" : [ ],
-        "hasContent" : false,
-        "stepsCount" : 0,
         "attachmentsCount" : 0,
-        "shouldDisplayMessage" : false
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
       }, {
         "name" : "Verify that Login Page Header is Displayed",
         "time" : {
-          "start" : 1740414520678,
-          "stop" : 1740414521218,
-          "duration" : 540
+          "start" : 1740414576226,
+          "stop" : 1740414576560,
+          "duration" : 334
         },
         "status" : "passed",
         "steps" : [ ],
         "attachments" : [ ],
         "parameters" : [ ],
-        "hasContent" : false,
-        "stepsCount" : 0,
         "attachmentsCount" : 0,
-        "shouldDisplayMessage" : false
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
       } ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "hasContent" : true,
-      "stepsCount" : 2,
       "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 2,
+      "hasContent" : true
     }, {
       "name" : "When User fill the credentials, and login",
       "time" : {
-        "start" : 1740414521236,
-        "stop" : 1740414522512,
-        "duration" : 1276
+        "start" : 1740414576570,
+        "stop" : 1740414576954,
+        "duration" : 384
       },
       "status" : "passed",
       "steps" : [ {
         "name" : "Fill Login form",
         "time" : {
-          "start" : 1740414521236,
-          "stop" : 1740414521494,
-          "duration" : 258
+          "start" : 1740414576571,
+          "stop" : 1740414576883,
+          "duration" : 312
         },
         "status" : "passed",
         "steps" : [ ],
         "attachments" : [ ],
         "parameters" : [ ],
-        "hasContent" : false,
-        "stepsCount" : 0,
         "attachmentsCount" : 0,
-        "shouldDisplayMessage" : false
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
       }, {
         "name" : "Click on Login Button",
         "time" : {
-          "start" : 1740414521494,
-          "stop" : 1740414522512,
-          "duration" : 1018
+          "start" : 1740414576883,
+          "stop" : 1740414576954,
+          "duration" : 71
         },
         "status" : "passed",
         "steps" : [ ],
         "attachments" : [ ],
         "parameters" : [ ],
-        "hasContent" : false,
-        "stepsCount" : 0,
         "attachmentsCount" : 0,
-        "shouldDisplayMessage" : false
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
       } ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "hasContent" : true,
-      "stepsCount" : 2,
       "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 2,
+      "hasContent" : true
     }, {
       "name" : "Then Home Page should be displayed",
       "time" : {
-        "start" : 1740414522512,
-        "stop" : 1740414522903,
-        "duration" : 391
+        "start" : 1740414576954,
+        "stop" : 1740414578031,
+        "duration" : 1077
       },
       "status" : "passed",
       "steps" : [ {
         "name" : "Verify that Home Page Header is Displayed",
         "time" : {
-          "start" : 1740414522513,
-          "stop" : 1740414522887,
-          "duration" : 374
+          "start" : 1740414576955,
+          "stop" : 1740414578020,
+          "duration" : 1065
         },
         "status" : "passed",
         "steps" : [ ],
         "attachments" : [ ],
         "parameters" : [ ],
-        "hasContent" : false,
-        "stepsCount" : 0,
         "attachmentsCount" : 0,
-        "shouldDisplayMessage" : false
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
       } ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "hasContent" : true,
-      "stepsCount" : 1,
       "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 1,
+      "hasContent" : true
     } ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "hasContent" : true,
-    "stepsCount" : 8,
     "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 8,
+    "hasContent" : true
   },
   "afterStages" : [ {
     "name" : "com.orangehrmlive.demo.opensource.hooks.Hooks.afterScenario(io.cucumber.java.Scenario)",
     "time" : {
-      "start" : 1740414522905,
-      "stop" : 1740414524395,
-      "duration" : 1490
+      "start" : 1740414578033,
+      "stop" : 1740414579411,
+      "duration" : 1378
     },
     "status" : "passed",
     "steps" : [ {
       "name" : "Log scenario result",
       "time" : {
-        "start" : 1740414522906,
-        "stop" : 1740414524395,
-        "duration" : 1489
+        "start" : 1740414578036,
+        "stop" : 1740414579411,
+        "duration" : 1375
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ {
-        "uid" : "d7d17d8e438eb05c",
+        "uid" : "46510ac1f887f68d",
         "name" : "screenshot",
-        "source" : "d7d17d8e438eb05c.png",
+        "source" : "46510ac1f887f68d.png",
         "type" : "image/png",
-        "size" : 155021
+        "size" : 151363
       } ],
       "parameters" : [ {
         "name" : "scenario",
-        "value" : "io.cucumber.java.Scenario@36638b59"
+        "value" : "io.cucumber.java.Scenario@7d95166a"
       } ],
-      "hasContent" : true,
-      "stepsCount" : 0,
       "attachmentsCount" : 1,
-      "shouldDisplayMessage" : false
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
     } ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "hasContent" : true,
-    "stepsCount" : 1,
     "attachmentsCount" : 1,
-    "shouldDisplayMessage" : false
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 1,
+    "hasContent" : true
   } ],
   "labels" : [ {
     "name" : "host",
-    "value" : "Mac-1740414356941.local"
+    "value" : "Mac-1740414410435.local"
   }, {
     "name" : "thread",
-    "value" : "1862@Mac-1740414356941.local.main(1)"
+    "value" : "1606@Mac-1740414410435.local.main(1)"
   }, {
     "name" : "feature",
     "value" : "Login Feature"
@@ -225,6 +225,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "9709fe7ebaa58fab.json",
+  "source" : "aad6baf9d08cce62.json",
   "parameterValues" : [ ]
 }
