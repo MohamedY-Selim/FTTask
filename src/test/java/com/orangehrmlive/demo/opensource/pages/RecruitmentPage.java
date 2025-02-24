@@ -7,7 +7,6 @@ import com.orangehrmlive.demo.opensource.utils.ConfigUtils;
 import io.qameta.allure.Step;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 
 public class RecruitmentPage extends BasePage<RecruitmentPage> {
@@ -55,10 +54,10 @@ public class RecruitmentPage extends BasePage<RecruitmentPage> {
     @Step("Fill User Data to search")
     public RecruitmentPage fillUserDataToSearch(User user) {
         driver.findElement(userNameInput).sendKeys(user.getUserName());
-        selectFromTheDropDown(driver.findElement(userRoleDropdown), user.getUserRole());
+        selectFromTheDropDown(userRoleDropdown, user.getUserRole());
         driver.findElement(employeeNameInput).sendKeys(user.getEmployeeName());
         selectSpecificOptionFromTheDropDown(user.getEmployeeName());
-        selectFromTheDropDown(driver.findElement(statusDropdown), user.getStatus());
+        selectFromTheDropDown(statusDropdown, user.getStatus());
         driver.findElement(searchButton).click();
         return this;
     }
@@ -68,10 +67,8 @@ public class RecruitmentPage extends BasePage<RecruitmentPage> {
         By deleteButtonLocator = By.xpath("//div[@class='oxd-table-row oxd-table-row--with-border' and .//div[text()='" + user.getUserName() + "']]//button[contains(@class, 'oxd-icon-button') and .//i[contains(@class, 'bi-trash')]]");
         By confirmDeleteButtonLocator = By.xpath("//div[contains(@class, 'orangehrm-modal-footer')]//button[contains(@class, 'oxd-button--label-danger')]");
 
-        WebElement deleteButton = explicitWait().until(ExpectedConditions.visibilityOfElementLocated(deleteButtonLocator));
-        deleteButton.click();
-        WebElement confirmDeleteButton = explicitWait().until(ExpectedConditions.visibilityOfElementLocated(confirmDeleteButtonLocator));
-        confirmDeleteButton.click();
+        explicitWait().until(ExpectedConditions.visibilityOfElementLocated(deleteButtonLocator)).click();
+        explicitWait().until(ExpectedConditions.visibilityOfElementLocated(confirmDeleteButtonLocator)).click();
         return this;
     }
 }
