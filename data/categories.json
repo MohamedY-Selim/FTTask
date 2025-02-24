@@ -1,25 +1,5 @@
 {
   "uid" : "4b4757e66a1912dae1a509f688f20b0f",
   "name" : "categories",
-  "children" : [ {
-    "name" : "Product defects",
-    "children" : [ {
-      "name" : "expected [29] but found [30]",
-      "children" : [ {
-        "name" : "Admin should be able to add a new user, and number of users records should be increased by one",
-        "uid" : "fb4159abaa7f03bf",
-        "parentUid" : "0e88317ee6cb7dfb47b5e7a018cf7169",
-        "status" : "failed",
-        "time" : {
-          "start" : 1740416352375,
-          "stop" : 1740416359469,
-          "duration" : 7094
-        },
-        "flaky" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "0e88317ee6cb7dfb47b5e7a018cf7169"
-    } ],
-    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
-  } ]
+  "children" : [ ]
 }
