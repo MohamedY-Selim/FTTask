@@ -22,6 +22,8 @@ public class CandidateApi {
 
     public String getSessionCookie() {
         Cookie sessionCookie = driver.manage().getCookieNamed("orangehrm");
+        system.out.println(sessionCookie);
+        console.log(sessionCookie);
         if (sessionCookie != null) {
             return sessionCookie.getValue();
         } else {
